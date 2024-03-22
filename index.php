@@ -16,7 +16,6 @@ include('./include/navbar.php');
         <!-- main-area -->
         <main>
 
-
             <!-- slider-area -->
             <section class="slider-area">
                 <div class="slider-active slick-initialized slick-slider"><button type="button" class="slick-prev slick-arrow" ><i class="fal fa-arrow-left"></i></button>
@@ -40,64 +39,7 @@ include('./include/navbar.php');
             </section>
             <!-- slider-area-end -->
 
-            <!-- features-area -->
-            <!-- <section class="features-area pt-100 pb-50">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-6 col-lg-8">
-                            <div class="section-title text-center mb-45">
-                                <div class="overlay-title">Process</div>
-                                <span class="sub-title">-- Process --</span>
-                                <h2 class="title">How It Works</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="features-item text-center mb-50 wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                                <div class="features-count">
-                                    <span>01</span>
-                                </div>
-                                <div class="features-content">
-                                    <h5>Add Your Listing</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                </div>
-                                <div class="features-icon">
-                                    <img src="images/features_icon01.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="features-item text-center mb-50 wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                                <div class="features-count">
-                                    <span>02</span>
-                                </div>
-                                <div class="features-content">
-                                    <h5>Add Price &amp; Limit</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                </div>
-                                <div class="features-icon">
-                                    <img src="images/features_icon02.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="features-item text-center mb-50 wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-                                <div class="features-count">
-                                    <span>03</span>
-                                </div>
-                                <div class="features-content">
-                                    <h5>Get Backers</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                </div>
-                                <div class="features-icon">
-                                    <img src="images/features_icon03.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
+            
             <!-- features-area-end -->
             <div class="mission-card">
                 <h2>Your Mission</h2>
