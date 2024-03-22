@@ -1,3 +1,22 @@
+<?php
+include('./include/header.php');
+include('./include/navbar.php');
+?>
+
+
+  
+
+     
+
+
+
+
+
+
+
+
+
+   
    <!-- blog-area -->
    <section class="blog-area">
                 <div class="container">
@@ -23,7 +42,7 @@ minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                         <div class="col-xl-4 col-lg-6 col-md-8 col-sm-10">
                             <div class="blog-item mb-30  wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                                 <div class="blog-thumb">
-                                    <a href="https://themeadapt.com/tf/crowdpress-live/blog-details.html"><img src="a_data_002/blog_img01.jpg" alt=""></a>
+                                    <a href="#"><img src="a_data_002/blog_img01.jpg" alt=""></a>
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
@@ -32,15 +51,15 @@ minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                                             <li><i class="fas fa-calendar-alt"></i>July 27, 2022</li>
                                         </ul>
                                     </div>
-                                    <h2 class="title"><a href="https://themeadapt.com/tf/crowdpress-live/blog-details.html">Contrary to popular traditional lorem ipsum is not</a></h2>
-                                    <a href="https://themeadapt.com/tf/crowdpress-live/blog-details.html" class="read-more">Read More</a>
+                                    <h2 class="title"><a href="#">Contrary to popular traditional lorem ipsum is not</a></h2>
+                                    <a href="#" class="read-more">Read More</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-6 col-md-8 col-sm-10">
                             <div class="blog-item mb-30 wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                                 <div class="blog-thumb">
-                                    <a href="https://themeadapt.com/tf/crowdpress-live/blog-details.html"><img src="a_data_002/blog_img02.jpg" alt=""></a>
+                                    <a href="#"><img src="a_data_002/blog_img02.jpg" alt=""></a>
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
@@ -49,15 +68,15 @@ minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                                             <li><i class="fas fa-calendar-alt"></i>July 27, 2022</li>
                                         </ul>
                                     </div>
-                                    <h2 class="title"><a href="https://themeadapt.com/tf/crowdpress-live/blog-details.html">Simply popular belief tradition contrary lorem ipsum is</a></h2>
-                                    <a href="https://themeadapt.com/tf/crowdpress-live/blog-details.html" class="read-more">Read More</a>
+                                    <h2 class="title"><a href="#">Simply popular belief tradition contrary lorem ipsum is</a></h2>
+                                    <a href="#" class="read-more">Read More</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-6 col-md-8 col-sm-10">
                             <div class="blog-item mb-30 wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
                                 <div class="blog-thumb">
-                                    <a href="https://themeadapt.com/tf/crowdpress-live/blog-details.html"><img src="a_data_002/blog_img03.jpg" alt=""></a>
+                                    <a href="#"><img src="a_data_002/blog_img03.jpg" alt=""></a>
                                 </div>
                                 <div class="blog-content">
                                     <div class="blog-meta">
@@ -66,8 +85,8 @@ minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                                             <li><i class="fas fa-calendar-alt"></i>July 27, 2022</li>
                                         </ul>
                                     </div>
-                                    <h2 class="title"><a href="https://themeadapt.com/tf/crowdpress-live/blog-details.html">Contrary to popular traditional lorem ipsum is not</a></h2>
-                                    <a href="https://themeadapt.com/tf/crowdpress-live/blog-details.html" class="read-more">Read More</a>
+                                    <h2 class="title"><a href="#">Contrary to popular traditional lorem ipsum is not</a></h2>
+                                    <a href="#" class="read-more">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -75,3 +94,26 @@ minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                 </div>
             </section>
             <!-- blog-area-end -->
+
+
+            <?php
+include('./include/footer.php');
+?>
+
+		<!-- JS here -->
+        <script src="./js/jquery-3.6.0.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/bootstrap-datepicker.min.js"></script>
+        <script src="./js/isotope.pkgd.min.js"></script>
+        <script src="./js/imagesloaded.pkgd.min.js"></script>
+        <script src="./js/jquery.magnific-popup.min.js"></script>
+        <script src="./js/jquery.odometer.min.js"></script>
+        <script src="./js/jquery.easypiechart.min.js"></script>
+        <script src="./js/jquery-ui.min.js"></script>
+        <script src="./js/jquery.inview.min.js"></script>
+        <script src="./js/jquery.appear.js"></script>
+        <script src="./js/slick.min.js"></script>
+        <script src="./js/wow.min.js"></script>
+        <script src="./js/main.js"></script>
+    
+   

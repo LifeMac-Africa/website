@@ -15,7 +15,7 @@
                                         <ul>
                                             <li>
                                                 <div class="icon">
-                                                    <img src="a_data_002/f_contact_icon01.png" alt="">
+                                                    <img src="images/f_contact_icon01.png" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <span>Phone Number</span>
@@ -24,7 +24,7 @@
                                             </li>
                                             <li>
                                                 <div class="icon">
-                                                    <img src="a_data_002/f_contact_icon02.png" alt="">
+                                                    <img src="images/f_contact_icon02.png" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <span>Email Address</span>
@@ -33,10 +33,10 @@
                                             </li>
                                             <li>
                                                 <div class="icon">
-                                                    <img src="a_data_002/f_contact_icon03.png" alt="">
+                                                    <img src="images/f_contact_icon03.png" alt="">
                                                 </div>
                                                 <div class="content">
-                                                    <span>Ho<br>..</span>
+                                                    <span>Ho<br></span>
                                                 </div>
                                             </li>
                                         </ul>
@@ -56,15 +56,15 @@
                                     <h4 class="fw-title">Project<span>.</span></h4>
                                     <div class="footer-link">
                                         <ul>
-                                            <li><a href="#"></a>Lifemac-Africa coming</li>
-                                            <li><a href="#"></a>Lifemac-Africa coming</li>
-                                            <li><a href="#"></a>Lifemac-Africa coming</li>
-                                            <li><a href="#"></a>Lifemac-Africa coming</li>
-                                            <li><a href="#"></a>Lifemac-Africa coming</li>
-                                            <li><a href="#"></a>Lifemac-Africa coming</li>
-                                            <li><a href="#"></a>Lifemac-Africa coming</li>
-                                            <li><a href="#"></a>Lifemac-Africa coming</li>
-                                            <li><a href="#"></a>Lifemac-Africa coming</li>
+                                            <li><a href="#"></a>Lifemac-Africa</li>
+                                            <li><a href="#"></a>Lifemac-Africa</li>
+                                            <li><a href="#"></a>Lifemac-Africa</li>
+                                            <li><a href="#"></a>Lifemac-Africa</li>
+                                            <li><a href="#"></a>Lifemac-Africa</li>
+                                            <li><a href="#"></a>Lifemac-Africa</li>
+                                            <li><a href="#"></a>Lifemac-Africa</li>
+                                            <li><a href="#"></a>Lifemac-Africa</li>
+                                            <li><a href="#"></a>Lifemac-Africa</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -76,29 +76,29 @@
                                         <ul>
                                             <li>
                                                 <div class="thumb">
-                                                    <a href="https://themeadapt.com/tf/crowdpress-live/blog-details.html"><img src="a_data_002/f_blog_img01.jpg" alt=""></a>
+                                                    <a href="#"><img src="images/f_blog_img01.jpg" alt=""></a>
                                                 </div>
                                                 <div class="content">
                                                     <span><i class="fas fa-calendar-alt"></i>23rd January 2022</span>
-                                                    <h2 class="title"><a href="https://themeadapt.com/tf/crowdpress-live/blog-details.html">Honest and Clear Presentation in Projects</a></h2>
+                                                    <h2 class="title"><a href="#">Honest and Clear Presentation in Projects</a></h2>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="thumb">
-                                                    <a href="https://themeadapt.com/tf/crowdpress-live/blog-details.html"><img src="a_data_002/f_blog_img02.jpg" alt=""></a>
+                                                    <a href="#"><img src="images/f_blog_img02.jpg" alt=""></a>
                                                 </div>
                                                 <div class="content">
                                                     <span><i class="fas fa-calendar-alt"></i>23rd June 2023</span>
-                                                    <h2 class="title"><a href="https://themeadapt.com/tf/crowdpress-live/blog-details.html">Simply popular belief tradition contrary lorem</a></h2>
+                                                    <h2 class="title"><a href="#">Simply popular belief tradition contrary lorem</a></h2>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="thumb">
-                                                    <a href="https://themeadapt.com/tf/crowdpress-live/blog-details.html"><img src="a_data_002/f_blog_img03.jpg" alt=""></a>
+                                                    <a href="#"><img src="images/f_blog_img03.jpg" alt=""></a>
                                                 </div>
                                                 <div class="content">
                                                     <span><i class="fas fa-calendar-alt"></i>23rd June 2024</span>
-                                                    <h2 class="title"><a href="https://themeadapt.com/tf/crowdpress-live/blog-details.html">Popular contrary to traditional lorem ipsum</a></h2>
+                                                    <h2 class="title"><a href="#">Popular contrary to traditional lorem ipsum</a></h2>
                                                 </div>
                                             </li>
                                         </ul>
