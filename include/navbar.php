@@ -4,7 +4,7 @@
         <div id="loading-center">
             <div id="loading-center-absolute">
                 <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
-                    <img class="loading-logo" src="stylesSheet/preloader.svg" alt="icon">
+                    <img class="loading-logo" src="./stylesSheet/preloader.svg" alt="icon">
                 </div>
             </div>
         </div>
@@ -25,14 +25,15 @@
                         <div class="col-lg-4 col-sm-6 d-none d-sm-block">
                             <div class="header-top-left">
                                 <ul>
-                                    <li><a href="#">LIFE-MAC AFRICA</a></li>
+                                    <li><a href="#">LIFE-MAC AFRICA<span>.</span></a></li>
                                     
                                 </ul>
                             </div>
                         </div>
                         <div class="col-lg-4 d-none d-lg-block">
                             <div class="logo text-center">
-                                <!-- <a href="#"><img src="images/w_logo.png" alt=""></a> -->
+                            <a href="./index.php"><img style="fill: white; width: 30%;" src="./images/logo-no-background-1.svg" alt=""></a>
+
                             </div>
                         </div>
                     </div>
@@ -49,7 +50,7 @@
                             <div class="menu-wrap">
                     <nav class="menu-nav show">
                    <div class="logo d-none">
-                <h1 style="color:white;">LIFE-MAC AFRICA</h1>
+                <h1 style="color:white;">LIFE-MAC AFRICA<span>.</span></h1>
             </div>
 
                                     <!-- Home start here -->

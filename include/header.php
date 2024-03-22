@@ -3,10 +3,11 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>LIFEMAC-AFRICA</title>
+        <title>LIFE-MAC-AFRICA</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" type="image/x-icon" href="#">
+		<link rel="icon" type="image/png" href="./images/cropped-Group-441-1.png" alt="">
+
         <!-- Place favicon.ico in the root directory -->
        
 		<!-- CSS here -->

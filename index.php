@@ -25,7 +25,7 @@ include('./include/navbar.php');
                                 <div class="col-xl-8 col-lg-10">
                                     <div class="slider-content">
                                         <h6 data-animation="fadeInUp" data-delay=".3s" style="text-align:center; animation-delay: 0.3s;" class=""><i class="fas fa-bookmark"></i> Raise money for the poor and needy</h6>
-                                        <h2 data-animation="fadeInUp" data-delay=".6s" style="text-align: center; animation-delay: 0.6s;">Empower a child with your donation</h2>
+                                        <h2 data-animation="fadeInUp" data-delay=".6s" style=" animation-delay: 0.6s;">Empower a child with your donation</h2>
 
                                         <div class="slider-btn">
                                             <a href="#" class="btn black-btn" data-animation="fadeInRight" data-delay=".9s" style="animation-delay: 0.9s;" tabindex="0">Donate<i class="fal fa-heart"></i></a>
