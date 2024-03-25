@@ -4,7 +4,34 @@ include('./include/navbar.php');
 ?>
 
 
-  
+        <!-- Image with Text under navbar -->
+        <section class="slider-area">
+    <div class="slider-active">
+        <div class="single-slider slider-bg" data-background="images/slider_bg01.jpg" style="background-image: url('images/blog_img01.jpg');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="slider-content text-center">
+                            <h6>Raise money for the poor and needy</h6>
+                            <h2>Empower a child with your donation</h2>
+                            <div class="slider-btn">
+                                <a href="#" class="btn black-btn">Donate<i class="fal fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Image with Text under navbar -->
+
+ 
+
+
+
+                <span></span>
 
 <!-- newsletter-area -->
 <section class="newsletter-area">
@@ -15,7 +42,7 @@ include('./include/navbar.php');
                                 <div class="newsletter-content">
                                     <div class="section-title">
                                         <span class="sub-title">-- Newsletter</span>
-                                        <h2 class="title">Subscribe to Lifemac-Africa Now</h2>
+                                        <h2 class="title" style="font-size:30px;">Subscribe to Lifemac-Africa</h2>
                                     </div>
                                 </div>
                                 <div class="newsletter-form">
