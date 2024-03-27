@@ -41,15 +41,36 @@ include('./include/navbar.php');
 
         <!-- Image with Text under navbar -->
 
- 
-            
-            <!-- features-area-end -->
-            <div class="mission-card">
-                <h2>Your Mission</h2>
-                <p>Explore the unknown and uncover the secrets of the universe.</p>
-                <p>Be bold, be brave, and make your mark on history.</p>
-                </div>
-            <!-- category-area -->
+ <style>
+    .category-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.category-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    width: 80px;
+    height: 80px;
+    margin: 20px auto;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+ </style>
+          
             <section class="category-area gray-bg pt-100 pb-70">
                 <div class="container">
                     <div class="row align-items-center">
@@ -57,46 +78,53 @@ include('./include/navbar.php');
                             <div class="section-title title-style-two">
                                 <div class="section-title mb-50">
                                   
-                                    <h2 class="title">Featured Category</h2>
+                                    <h2 class="title" style=" font-size: 55px;">Our Mission & Vision.</h2>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-6">
                             <div class="section-text mb-50">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                                <p>We are a dynamic community of critical thinkers, proactive doers and visionary leaders committed to driving positive change through comprehensive initiatives. Our expertise lies in research, advocacy, training, consultancy, coaching, and mentoring across sectors including Education, Gender Empowerment and Social Inclusion (GESI), Rural and Community Development, Citizen Participation and Governance. 
+                                    Aligned with the UN Sustainable Development Goals, we passionately work towards creating a brighter, more inclusive future for all.</p>
                             </div>
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-20">
-                            <a href="#" class="category-item"><img src="images/category_icon01.svg" alt=""><span>Clothing</span></a>
-                        </div>
-                        <div class="col-20">
-                            <a href="#" class="category-item"><img src="images/category_icon02.svg" alt=""><span>Film &amp; Video</span></a>
-                        </div>
-                        <div class="col-20">
-                            <a href="#" class="category-item"><img src="images/category_icon03.svg" alt=""><span>Foods</span></a>
-                        </div>
-                        <div class="col-20">
-                            <a href="#" class="category-item"><img src="images/category_icon04.svg" alt=""><span>Games</span></a>
-                        </div>
-                        <div class="col-20">
-                            <a href="#" class="category-item"><img src="images/category_icon05.svg" alt=""><span>Handy Craft</span></a>
-                        </div>
-                        <div class="col-20">
-                            <a href="#" class="category-item"><img src="images/category_icon06.png" alt=""><span>Clothing</span></a>
-                        </div>
-                        <div class="col-20">
-                            <a href="#" class="category-item"><img src="images/category_icon07.png" alt=""><span>Journalism</span></a>
-                        </div>
-                        <div class="col-20">
-                            <a href="#" class="category-item"><img src="images/category_icon08.png" alt=""><span>Music</span></a>
-                        </div>
-                        <div class="col-20">
-                            <a href="#" class="category-item"><img src="images/category_icon09.png" alt=""><span>Technology</span></a>
+                        <!-- Mission card -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card category-item text-center">
+                        <img src="images/category_icon01.svg" class="card-img-top" alt="Mission Icon">
+                        <div class="card-body">
+                            <h5 class="card-title">MISSION</h5>
+                            <p class="card-text">Empowering communities through diverse initiatives for sustainable development.</p>
                         </div>
                     </div>
+                </div>
+                <!-- Vision card -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card category-item text-center">
+                        <img src="images/category_icon02.svg" class="card-img-top" alt="Vision Icon">
+                        <div class="card-body">
+                            <h5 class="card-title">VISION</h5>
+                            <p class="card-text">Fostering a future where our collective efforts drive global well-being and prosperity.</p>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Core vavlue card -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card category-item text-center">
+                        <img src="images/category_icon02.svg" class="card-img-top" alt="Vision Icon">
+                        <div class="card-body">
+                            <h5 class="card-title">CORE VALUES</h5>
+                            <p class="card-text">Our identity, LIFE-MAC, is an acronym coined from the initial letters of our core values.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+               
+
                 </div>
             </section>
             <!-- category-area-end -->
