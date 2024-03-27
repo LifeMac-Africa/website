@@ -1,3 +1,9 @@
+<?php
+include('./include/header.php');
+
+?>
+
+ 
  <!-- footer-area -->
  <footer>
             <div class="footer-area">
@@ -45,30 +51,12 @@
                                         <ul>
                                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-behance"></i></a></li>
                                             <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-7">
-                                <div class="footer-widget wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                                    <h4 class="fw-title">Project<span>.</span></h4>
-                                    <div class="footer-link">
-                                        <ul>
-                                            <li><a href="#"></a>Lifemac-Africa</li>
-                                            <li><a href="#"></a>Lifemac-Africa</li>
-                                            <li><a href="#"></a>Lifemac-Africa</li>
-                                            <li><a href="#"></a>Lifemac-Africa</li>
-                                            <li><a href="#"></a>Lifemac-Africa</li>
-                                            <li><a href="#"></a>Lifemac-Africa</li>
-                                            <li><a href="#"></a>Lifemac-Africa</li>
-                                            <li><a href="#"></a>Lifemac-Africa</li>
-                                            <li><a href="#"></a>Lifemac-Africa</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div class="col-lg-4 col-md-6">
                                 <div class="footer-widget wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
                                     <h4 class="fw-title">News Feeds<span>.</span></h4>

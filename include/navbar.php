@@ -93,19 +93,6 @@
 
                                     <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div></li>
                                         <li><a href="./contact.php">contacts</a></li>
-                                        </ul>
-                                    </div>
-                                
-                                </a>
-                            </div>
-                                </nav>
-                                
-                            </div>
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
         </header>
         <!-- header-area-end -->
 

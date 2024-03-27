@@ -7,7 +7,7 @@ include('./include/navbar.php');
         <!-- Image with Text under navbar -->
         <section class="slider-area">
     <div class="slider-active">
-        <div class="single-slider slider-bg" data-background="images/slider_bg01.jpg" style="background-image: url('images/blog_img01.jpg');">
+        <div class="single-slider slider-bg" data-background="./images/Rectangle-94.png" style="background-image: url('./images/Rectangle-94.png');">
             <div class="container">
                 <div class="row">
                     <div class="col-12">

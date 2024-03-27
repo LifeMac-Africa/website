@@ -7,21 +7,12 @@ include('./include/navbar.php');
 
 
 
-
-    <body>
-    
-
-   
-
         <!-- main-area -->
         <main>
-
-   
-
         <!-- Image with Text under navbar -->
     <section class="slider-area">
     <div class="slider-active">
-        <div class="single-slider slider-bg" data-background="images/slider_bg01.jpg" style="background-image: url('images/blog_img01.jpg');">
+        <div class="single-slider slider-bg" data-background="./images/slider_bg01.jpg" style="background-image: url('././images/slider_bg01.jpg');">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -29,7 +20,7 @@ include('./include/navbar.php');
                             <h6>Raise money for the poor and needy</h6>
                             <h2>Empower a child with your donation</h2>
                             <div class="slider-btn">
-                                <a href="#" class="btn black-btn">Donate<i class="fal fa-heart"></i></a>
+                                <a href="#" class="btn black-btn">Donate<i class="fas fa-heart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -41,125 +32,81 @@ include('./include/navbar.php');
 
         <!-- Image with Text under navbar -->
 
- <style>
-    .category-item {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    transition: all 0.3s ease;
-}
 
-.category-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
 
-.card-img-top {
-    width: 80px;
-    height: 80px;
-    margin: 20px auto;
-}
-
-.card-title {
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-
-.card-text {
-    font-size: 16px;
-}
-
- </style>
-          
-            <section class="category-area gray-bg pt-100 pb-70">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-6">
-                            <div class="section-title title-style-two">
-                                <div class="section-title mb-50">
-                                  
-                                    <h2 class="title" style=" font-size: 55px;">Our Mission & Vision.</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6">
-                            <div class="section-text mb-50">
-                                <p>We are a dynamic community of critical thinkers, proactive doers and visionary leaders committed to driving positive change through comprehensive initiatives. Our expertise lies in research, advocacy, training, consultancy, coaching, and mentoring across sectors including Education, Gender Empowerment and Social Inclusion (GESI), Rural and Community Development, Citizen Participation and Governance. 
-                                    Aligned with the UN Sustainable Development Goals, we passionately work towards creating a brighter, more inclusive future for all.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <!-- Mission card -->
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card category-item text-center">
-                        <img src="images/category_icon01.svg" class="card-img-top" alt="Mission Icon">
-                        <div class="card-body">
-                            <h5 class="card-title">MISSION</h5>
-                            <p class="card-text">Empowering communities through diverse initiatives for sustainable development.</p>
-                        </div>
+        <section class="category-area blue-bg pt-100 pb-70">
+            <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6">
+                <div class="section-title title-style-two">
+                    <div class="section-title mb-50">
+                    <h2 class="title" style=" font-size: 55px;">Our Mission & Vision.</h2>
                     </div>
                 </div>
-                <!-- Vision card -->
+                </div>
+                <div class="col-xl-6">
+                <div class="section-text mb-50">
+                    <p>We are a dynamic community of critical thinkers, proactive doers and visionary leaders committed to driving positive change through comprehensive initiatives. Our expertise lies in research, advocacy, training, consultancy, coaching, and mentoring across sectors including Education, Gender Empowerment and Social Inclusion (GESI), Rural and Community Development, Citizen Participation and Governance. 
+                        Aligned with the UN Sustainable Development Goals, we passionately work towards creating a brighter, more inclusive future for all.</p>
+                </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
                 <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card category-item text-center">
-                        <img src="images/category_icon02.svg" class="card-img-top" alt="Vision Icon">
-                        <div class="card-body">
-                            <h5 class="card-title">VISION</h5>
-                            <p class="card-text">Fostering a future where our collective efforts drive global well-being and prosperity.</p>
-                        </div>
+                <div class="card category-item text-center">
+                    <img src="./images/dart-mission-goal-success-svgrepo-com.svg" class="card-img-top" alt="Mission Icon">
+                    <div class="card-body">
+                    <h5 class="card-title">MISSION</h5>
+                    <p class="card-text">Empowering communities through diverse initiatives for sustainable development.</p>
                     </div>
                 </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card category-item text-center">
+                    <img src="./images/vision-svgrepo-com(1).svg" class="card-img-top" alt="Vision Icon">
+                    <div class="card-body">
+                    <h5 class="card-title">VISION</h5>
+                    <p class="card-text">Fostering a future where our collective efforts drive global well-being and prosperity.</p>
+                    </div>
+                </div>
+                </div>
 
-                 <!-- Core vavlue card -->
-            <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card category-item text-center">
-                        <img src="images/category_icon02.svg" class="card-img-top" alt="Vision Icon">
-                        <div class="card-body">
-                            <h5 class="card-title">CORE VALUES</h5>
-                            <p class="card-text">Our identity, LIFE-MAC, is an acronym coined from the initial letters of our core values.</p>
+                <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card category-item text-center">
+                    <img src="./images/value-proposition-offer-value-submit-a-proposal-offer-a-benefit-svgrepo-com.svg" class="card-img-top" alt="Vision Icon">
+                    <div class="card-body">
+                    <h5 class="card-title">CORE VALUES</h5>
+                    <p class="card-text">Our identity, LIFE-MAC, is an acronym coined from the initial letters of our core values.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+              
+
+
+            <section class="cta-area cta-bg">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-xl-6 col-lg-8 d-flex align-items-center">  <video autoplay muted width="560" height="315">  <source src="./Midea/Doing the most good with your charitable donations.mp4" type="video/mp4">
+                        </video>
+                        <div class="col-xl-6 col-lg-10 cta-content ms-4">  <div class="section-title mb-18">
+                                <span class="sub-title">-- Call To Action</span>
+                                <h4 class="title">We Help at Every Step from Concept.</h4>
+                            </div>
+                            
+                            <ul class="cta-list">
+                                <li>Raise funds with a crowdfunding campaign</li>
+                                <li>Extend your campaign with InDemand</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
-               
-
-                </div>
             </section>
-            <!-- category-area-end -->
 
-            <!-- support-area -->
-            <section class="support-area">
-                <div class="container">
-                    <div class="row g-0">
-                        <div class="col-lg-6">
-                            <div class="support-item support-bg" data-background="images/support_img01.jpg" style="background-image: url(&quot;images/support_img01.jpg&quot;);">
-                                <div class="section-title text-center">
-                                    <span class="sub-title">-- Need Support --</span>
-                                    <h2 class="title">Get Backers</h2>
-                                    <div class="support-btn">
-                                        <a href="#" class="btn">Explore Projects<span>+</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="support-item support-bg" data-background="images/support_img02.jpg" style="background-image: url(&quot;images/support_img02.jpg&quot;);">
-                                <div class="section-title text-center">
-                                    <span class="sub-title">-- Give Support --</span>
-                                    <h2 class="title">Support Projects</h2>
-                                    <div class="support-btn">
-                                        <a href="#" class="btn">Explore Projects<span>+</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- support-area-end -->
-
+            
             <!-- project-area -->
             <section class="project-area pt-100 pb-100">
                 <div class="container">
@@ -167,7 +114,7 @@ include('./include/navbar.php');
                         <div class="col-xl-6 col-lg-8">
                             <div class="section-title text-center mb-55">
                                 
-                                <h2 class="title">Featured Projects</h2>
+                                <h2 class="title">LATEST CAMPAIGN</h2>
                             </div>
                         </div>
                     </div>
@@ -176,8 +123,8 @@ include('./include/navbar.php');
                         <div class="col-lg-4 col-md-6 col-sm-10">
                             <div class="project-item mb-30">
                                 <div class="project-thumb">
-                                    <a href="#"><img src="images/project_img01.jpg" alt=""></a>
-                                    <a href="#" class="tag">Clothing</a>
+                                    <a href="#"><img src="./images/ocg-saving-the-ocean-rXjzIsQAQ-w-unsplash.jpg" alt=""></a>
+                                    <a href="#" class="tag">Evironment clean-up campaign</a>
                                 </div>
                                 <div class="project-content">
                                     <h2 class="title"><a href="#">To prove kindness of nation charity is the simple method</a></h2>
@@ -187,20 +134,16 @@ include('./include/navbar.php');
                                         </div>
                                         <div class="cause-amounts row">
                                             <div class="col-6">
-                                                <span>$46,322</span>
-                                                <p>Raised of $56,000</p>
+                                                <!-- CMS backend will happen here -->
                                             </div>
                                             <div class="col-6">
-                                                <span>20+</span>
-                                                <p>Backers We Got</p>
+                                                <!-- CMS backend will happen here -->
                                             </div>
                                         </div>
                                     </div>
                                     <div class="project-meta">
                                         <ul>
-                                            <li><a href="#"><i class="far fa-user"></i>By Admin</a></li>
-                                            <li><i class="fas fa-calendar-alt"></i>July 29, 2022</li>
-                                            <li><a href="#"><i class="far fa-heart"></i></a></li>
+                                           <!-- CMS backend will happen here -->
                                         </ul>
                                     </div>
                                 </div>
@@ -210,8 +153,8 @@ include('./include/navbar.php');
                         <div class="col-lg-4 col-md-6 col-sm-10">
                             <div class="project-item mb-30">
                                 <div class="project-thumb">
-                                    <a href="#"><img src="images/project_img02.jpg" alt=""></a>
-                                    <a href="#" class="tag">Film &amp; Video</a>
+                                    <a href="#"><img src="./images/brian-yurasits-5fbJMCzqNDs-unsplash.jpg" alt=""></a>
+                                    <a href="#" class="tag">Water purification campaign</a>
                                 </div>
                                 <div class="project-content">
                                     <h2 class="title"><a href="#">Helping wisely to give donation In critical situation</a></h2>
@@ -221,20 +164,16 @@ include('./include/navbar.php');
                                         </div>
                                         <div class="cause-amounts row">
                                             <div class="col-6">
-                                                <span>$29,422</span>
-                                                <p>Raised of $35,000</p>
+                                                <!-- CMS backend will happen here -->
                                             </div>
                                             <div class="col-6">
-                                                <span>20+</span>
-                                                <p>Backers We Got</p>
+                                                <!-- CMS backend will happen here -->
                                             </div>
                                         </div>
                                     </div>
                                     <div class="project-meta">
                                         <ul>
-                                            <li><a href="#"><i class="far fa-user"></i>By Admin</a></li>
-                                            <li><i class="fas fa-calendar-alt"></i>July 29, 2022</li>
-                                            <li><a href="#"><i class="far fa-heart"></i></a></li>
+                                           <!-- CMS backend will happen here -->
                                         </ul>
                                     </div>
                                 </div>
@@ -245,7 +184,7 @@ include('./include/navbar.php');
                             <div class="project-item mb-30">
                                 <div class="project-thumb">
                                     <a href="#"><img src="images/project_img03.jpg" alt=""></a>
-                                    <a href="#" class="tag">Clothing</a>
+                                    <a href="#" class="tag">Charity campaign</a>
                                 </div>
                                 <div class="project-content">
                                     <h2 class="title"><a href="#">A small charity has a big impact In the full society</a></h2>
@@ -255,20 +194,16 @@ include('./include/navbar.php');
                                         </div>
                                         <div class="cause-amounts row">
                                             <div class="col-6">
-                                                <span>$91,603</span>
-                                                <p>Raised of $75,000</p>
+                                               <!-- CMS backend will happen here -->
                                             </div>
                                             <div class="col-6">
-                                                <span>3+</span>
-                                                <p>Backers We Got</p>
+                                               <!-- CMS backend will happen here -->
                                             </div>
                                         </div>
                                     </div>
                                     <div class="project-meta">
                                         <ul>
-                                            <li><a href="#"><i class="far fa-user"></i>By Admin</a></li>
-                                            <li><i class="fas fa-calendar-alt"></i>July 29, 2022</li>
-                                            <li><a href="#"><i class="far fa-heart"></i></a></li>
+                                           <!-- CMS backend will happen here -->
                                         </ul>
                                     </div>
                                 </div>
@@ -279,8 +214,8 @@ include('./include/navbar.php');
                         <div class="col-lg-4 col-md-6 col-sm-10">
                             <div class="project-item mb-30">
                                 <div class="project-thumb">
-                                    <a href="#"><img src="images/project_img04.jpg" alt=""></a>
-                                    <a href="#" class="tag">Foods</a>
+                                    <a href="#"><img src="./images/katt-yukawa-K0E6E0a0R3A-unsplash.jpg" alt=""></a>
+                                    <a href="#" class="tag">Charity Donation campaign</a>
                                 </div>
                                 <div class="project-content">
                                     <h2 class="title"><a href="#">Charity is a simple method to prove kindness of nation</a></h2>
@@ -290,20 +225,16 @@ include('./include/navbar.php');
                                         </div>
                                         <div class="cause-amounts row">
                                             <div class="col-6">
-                                                <span>$29,422</span>
-                                                <p>Raised of $35,000</p>
+                                                <!-- CMS backend will happen here -->
                                             </div>
                                             <div class="col-6">
-                                                <span>20+</span>
-                                                <p>Backers We Got</p>
+                                                <!-- CMS backend will happen here -->
                                             </div>
                                         </div>
                                     </div>
                                     <div class="project-meta">
                                         <ul>
-                                            <li><a href="#"><i class="far fa-user"></i>By Admin</a></li>
-                                            <li><i class="fas fa-calendar-alt"></i>July 29, 2022</li>
-                                            <li><a href="#"><i class="far fa-heart"></i></a></li>
+                                            <!-- CMS backend will happen here -->
                                         </ul>
                                     </div>
                                 </div>
@@ -315,8 +246,8 @@ include('./include/navbar.php');
                         <div class="col-lg-4 col-md-6 col-sm-10">
                             <div class="project-item mb-30">
                                 <div class="project-thumb">
-                                    <a href="#"><img src="images/project_img04.jpg" alt=""></a>
-                                    <a href="#" class="tag">Foods</a>
+                                    <a href="#"><img src="./images/priscilla-du-preez-gYdjZzXNWlg-unsplash.jpg" alt=""></a>
+                                    <a href="#" class="tag">Girls Girls campaign</a>
                                 </div>
                                 <div class="project-content">
                                     <h2 class="title"><a href="#">Charity is a simple method to prove kindness of nation</a></h2>
@@ -326,20 +257,16 @@ include('./include/navbar.php');
                                         </div>
                                         <div class="cause-amounts row">
                                             <div class="col-6">
-                                                <span>$29,422</span>
-                                                <p>Raised of $35,000</p>
+                                                <!-- CMS backend will happen here -->
                                             </div>
                                             <div class="col-6">
-                                                <span>20+</span>
-                                                <p>Backers We Got</p>
+                                                <!-- CMS backend will happen here -->
                                             </div>
                                         </div>
                                     </div>
                                     <div class="project-meta">
                                         <ul>
-                                            <li><a href="#"><i class="far fa-user"></i>By Admin</a></li>
-                                            <li><i class="fas fa-calendar-alt"></i>July 29, 2022</li>
-                                            <li><a href="#"><i class="far fa-heart"></i></a></li>
+                                            <!-- CMS backend will happen here -->
                                         </ul>
                                     </div>
                                 </div>
@@ -353,7 +280,7 @@ include('./include/navbar.php');
                             <div class="project-item mb-30">
                                 <div class="project-thumb">
                                     <a href="#"><img src="images/project_img06.jpg" alt=""></a>
-                                    <a href="#" class="tag">Foods</a>
+                                    <a href="#" class="tag">School Mentor campaign</a>
                                 </div>
                                 <div class="project-content">
                                     <h2 class="title"><a href="#">Charity is a simple method to prove kindness of nation</a></h2>
@@ -363,20 +290,16 @@ include('./include/navbar.php');
                                         </div>
                                         <div class="cause-amounts row">
                                             <div class="col-6">
-                                                <span>$29,422</span>
-                                                <p>Raised of $35,000</p>
+                                               <!-- CMS backend will happen here -->
                                             </div>
                                             <div class="col-6">
-                                                <span>20+</span>
-                                                <p>Backers We Got</p>
+                                               <!-- CMS backend will happen here -->
                                             </div>
                                         </div>
                                     </div>
                                     <div class="project-meta">
                                         <ul>
-                                            <li><a href="#"><i class="far fa-user"></i>By Admin</a></li>
-                                            <li><i class="fas fa-calendar-alt"></i>July 29, 2022</li>
-                                            <li><a href="#"><i class="far fa-heart"></i></a></li>
+                                           <!-- CMS backend will happen here -->
                                         </ul>
                                     </div>
                                 </div>
@@ -385,9 +308,9 @@ include('./include/navbar.php');
                       
 
                     </div>
-                    <div class="more-project text-center mt-20">
+                    <!-- <div class="more-project text-center mt-20">
                         <a href="#" class="btn">More Projects <span>+</span></a>
-                    </div>
+                    </div> -->
                 </div>
             </section>
             <!-- project-area-end -->
@@ -403,7 +326,7 @@ include('./include/navbar.php');
                                 </div>
                                 <div class="counter-content">
                                     <h2 class="count"><span class="odometer odometer-auto-theme" data-count="184"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">1</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">8</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">4</span></span></span></span></span></div></span>K</h2>
-                                    <p>Projects are Completed</p>
+                                    <p>Projects Completed</p>
                                 </div>
                             </div>
                         </div>
@@ -414,7 +337,7 @@ include('./include/navbar.php');
                                 </div>
                                 <div class="counter-content">
                                     <h2 class="count"><span class="odometer odometer-auto-theme" data-count="10"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">1</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div></span>M</h2>
-                                    <p>Active Backers Around World</p>
+                                    <p>Active campaign</p>
                                 </div>
                             </div>
                         </div>
@@ -451,7 +374,7 @@ include('./include/navbar.php');
                     <div class="row align-items-center justify-content-center">
                         <div class="col-xl-6 col-lg-8">
                             <div class="cta-img">
-                                <img src="images/cta_img.jpg" alt="">
+                                <img src="./images/Rectangle-7-18.png" alt="">
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-10">
@@ -482,7 +405,7 @@ exercitation ullamco laboris nisi ut aliquip.</p>
                         <div class="col-xl-6 col-lg-5">
                             <div class="section-title title-style-two mb-50">
                                 <span class="sub-title">-- Testimonials</span>
-                                <h2 class="title">Happy Users</h2>
+                                <h2 class="title">Happy Children</h2>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-7">
@@ -508,12 +431,12 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                 <div class="testi-avatar-wrap">
                                     <div class="testi-avatar-info">
                                         <div class="testi-avatar-thumb">
-                                            <img src="images/testimonial-avatar02.jpg" alt="">
+                                            <img src="./images/Founder & Executive Director.jpeg" alt="">
                                         </div>
                                         <div class="testi-avatar-content">
                                             <div class="content">
-                                                <h2 class="title">Miranda H. Halim</h2>
-                                                <p>Founder Of Yokoloko</p>
+                                                <h2 class="title">Coutrage</h2>
+                                                <p>Founder Of Life-Mac</p>
                                             </div>
                                         </div>
                                     </div>
@@ -534,7 +457,7 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                 <div class="testi-avatar-wrap">
                                     <div class="testi-avatar-info">
                                         <div class="testi-avatar-thumb">
-                                            <img src="images/testimonial-avatar03.jpg" alt="">
+                                            <img src="./images/Director of Communications.jpeg" alt="">
                                         </div>
                                         <div class="testi-avatar-content">
                                             <div class="content">
@@ -586,7 +509,7 @@ possibilities. With so many more customers — and so many ways to connect
                                 <div class="testi-avatar-wrap">
                                     <div class="testi-avatar-info">
                                         <div class="testi-avatar-thumb">
-                                            <img src="images/testimonial-avatar01.jpg" alt="">
+                                            <img src="./images/Director of Communications.jpeg" alt="">
                                         </div>
                                         <div class="testi-avatar-content">
                                             <div class="content">
@@ -627,24 +550,26 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                     </div>
                                 </div>
                             </div>
+
+
                         </div><div class="col-lg-4 slick-slide slick-current slick-active" data-slick-index="2" aria-hidden="false" style="width: 400px;" tabindex="0" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02">
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
                                     <p>When you think about collecting 
-customer feed back, it’s easy to get overwhelmed by the sheer volume of
-                                        possibilities. With so many more
- customers — and so many ways to connect with their feedback — it’s hard
+                                    customer feed back, it’s easy to get overwhelmed by the sheer volume of
+                                                                            possibilities. With so many more
+                                    customers — and so many ways to connect with their feedback — it’s hard
                                         to know to where to start.</p>
                                 </div>
                                 <div class="testi-avatar-wrap">
                                     <div class="testi-avatar-info">
                                         <div class="testi-avatar-thumb">
-                                            <img src="images/testimonial-avatar03.jpg" alt="">
+                                            <img src="./images/Founder & Executive Director.jpeg" alt="">
                                         </div>
                                         <div class="testi-avatar-content">
                                             <div class="content">
-                                                <h2 class="title">Pixerul L. Lulima</h2>
-                                                <p>Founder Of Lulima Ltd.</p>
+                                                <h2 class="title">Courage</h2>
+                                                <p>Founder Of Life-Mac Africa</p>
                                             </div>
                                         </div>
                                     </div>
@@ -653,6 +578,8 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                     </div>
                                 </div>
                             </div>
+
+
                         </div><div class="col-lg-4 slick-slide slick-active" data-slick-index="3" aria-hidden="false" style="width: 400px;" tabindex="0" role="tabpanel" id="slick-slide03" aria-describedby="slick-slide-control03">
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
@@ -665,12 +592,12 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                 <div class="testi-avatar-wrap">
                                     <div class="testi-avatar-info">
                                         <div class="testi-avatar-thumb">
-                                            <img src="images/testimonial-avatar02.jpg" alt="">
+                                            <img src="./images/Founder & Executive Director.jpeg" alt="">
                                         </div>
                                         <div class="testi-avatar-content">
                                             <div class="content">
-                                                <h2 class="title">Miranda H. Halim</h2>
-                                                <p>Founder Of Yokoloko</p>
+                                                <h2 class="title">Life-Mac Junior</h2>
+                                                <p>Founder Of Life-Mac Africa</p>
                                             </div>
                                         </div>
                                     </div>
@@ -679,59 +606,7 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                     </div>
                                 </div>
                             </div>
-                        </div><div class="col-lg-4 slick-slide slick-cloned slick-active" data-slick-index="4" id="" aria-hidden="false" style="width: 400px;" tabindex="-1">
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>When you think about collecting 
-customer feed back, it’s easy to get overwhelmed by the sheer volume of 
-possibilities. With so many more customers — and so many ways to connect
- with their feedback — it’s hard to know to
-                                    where to start.</p>
-                                </div>
-                                <div class="testi-avatar-wrap">
-                                    <div class="testi-avatar-info">
-                                        <div class="testi-avatar-thumb">
-                                            <img src="images/testimonial-avatar01.jpg" alt="">
-                                        </div>
-                                        <div class="testi-avatar-content">
-                                            <div class="content">
-                                                <h2 class="title">Rosalina D. Wiliam</h2>
-                                                <p>Founder Of Mirax Co.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="testi-icon">
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><div class="col-lg-4 slick-slide slick-cloned" data-slick-index="5" id="" aria-hidden="true" style="width: 400px;" tabindex="-1">
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>When you think about collecting 
-customer feed back, it’s easy to get overwhelmed by the sheer volume of
-                                        possibilities. With so many more
- customers — and so many ways to connect with their feedback — it’s hard
-                                        to know to
-                                        where to start.</p>
-                                </div>
-                                <div class="testi-avatar-wrap">
-                                    <div class="testi-avatar-info">
-                                        <div class="testi-avatar-thumb">
-                                            <img src="images/testimonial-avatar02.jpg" alt="">
-                                        </div>
-                                        <div class="testi-avatar-content">
-                                            <div class="content">
-                                                <h2 class="title">Miranda H. Halim</h2>
-                                                <p>Founder Of Yokoloko</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="testi-icon">
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
+     
                         </div><div class="col-lg-4 slick-slide slick-cloned" data-slick-index="6" id="" aria-hidden="true" style="width: 400px;" tabindex="-1">
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
@@ -741,15 +616,16 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
  customers — and so many ways to connect with their feedback — it’s hard
                                         to know to where to start.</p>
                                 </div>
+                                
                                 <div class="testi-avatar-wrap">
                                     <div class="testi-avatar-info">
                                         <div class="testi-avatar-thumb">
-                                            <img src="images/testimonial-avatar03.jpg" alt="">
+                                            <img src="./images/Director of Communications.jpeg" alt="">
                                         </div>
                                         <div class="testi-avatar-content">
                                             <div class="content">
-                                                <h2 class="title">Pixerul L. Lulima</h2>
-                                                <p>Founder Of Lulima Ltd.</p>
+                                                <h2 class="title">Junior</h2>
+                                                <p>Communication Leader</p>
                                             </div>
                                         </div>
                                     </div>
@@ -758,47 +634,20 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                     </div>
                                 </div>
                             </div>
-                        </div><div class="col-lg-4 slick-slide slick-cloned" data-slick-index="7" id="" aria-hidden="true" style="width: 400px;" tabindex="-1">
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>When you think about collecting 
-customer feed back, it’s easy to get overwhelmed by the sheer volume of
-                                        possibilities. With so many more
- customers — and so many ways to connect with their feedback — it’s hard
-                                        to know to where to start.</p>
-                                </div>
-                                <div class="testi-avatar-wrap">
-                                    <div class="testi-avatar-info">
-                                        <div class="testi-avatar-thumb">
-                                            <img src="images/testimonial-avatar02.jpg" alt="">
-                                        </div>
-                                        <div class="testi-avatar-content">
-                                            <div class="content">
-                                                <h2 class="title">Miranda H. Halim</h2>
-                                                <p>Founder Of Yokoloko</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="testi-icon">
-                                        <i class="fas fa-star"></i>
-                                    </div>
+
                                 </div>
                             </div>
                         </div></div></div>
-                        
-                        
-                        
-                    <ul class="slick-dots"  role="tablist"><li class="" role="presentation"><button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 2" tabindex="-1">1</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 2" tabindex="-1">2</button></li><li role="presentation" class="slick-active"><button type="button" role="tab" id="slick-slide-control02" aria-controls="slick-slide02" aria-label="3 of 2" tabindex="0" aria-selected="true">3</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control03" aria-controls="slick-slide03" aria-label="4 of 2" tabindex="-1">4</button></li></ul></div>
                 </div>
             </section>
             <!-- testimonial-area-end -->
-                <!-- newsletter-area -->
-                <?php
-                include("./Routes/newsletter.php");
-                ?>
-            <!-- newsletter-area-end -->
+         
+
+
+
+
             <!-- brand-area -->
-            <section class="brand-area pt-100 pb-70">
+            <!-- <section class="brand-area pt-100 pb-70">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-10">
@@ -847,7 +696,7 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <!-- brand-area-end -->
 
          
