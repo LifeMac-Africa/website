@@ -31,80 +31,79 @@ include('./include/navbar.php');
 </section>
 
         <!-- Image with Text under navbar -->
-
-
-
-        <section class="category-area blue-bg pt-100 pb-70">
-            <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6">
-                <div class="section-title title-style-two">
-                    <div class="section-title mb-50">
-                    <h2 class="title" style=" font-size: 55px;">Our Mission & Vision.</h2>
+        <section class="cta-area cta-bg">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-xl-6 col-lg-8 d-flex align-items-center">
+                <div class="video-container position-relative">
+                    <!-- Add SVG animation here -->
+                    <div class="svg-animation"></div>
+                    <video id="myVideo" width="560" height="315" autoplay muted loop>
+                        <source src="./Midea/Doing the most good with your charitable donations.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <img id="gifOverlay" src="./Midea/Animation%20-%201711545213723(1).gif" class="gif-overlay" alt="GIF Overlay">
+                    <div id="playButton" class="play-button"></div>
+                </div>
+                <div class="col-xl-6 col-lg-10 cta-content ms-4">
+                    <div class="section-title mb-18">
+                        <span class="sub-title">-- Call To Action</span>
+                        <h4 class="title">We Help at Every Step from Concept.</h4>
                     </div>
-                </div>
-                </div>
-                <div class="col-xl-6">
-                <div class="section-text mb-50">
-                    <p>We are a dynamic community of critical thinkers, proactive doers and visionary leaders committed to driving positive change through comprehensive initiatives. Our expertise lies in research, advocacy, training, consultancy, coaching, and mentoring across sectors including Education, Gender Empowerment and Social Inclusion (GESI), Rural and Community Development, Citizen Participation and Governance. 
-                        Aligned with the UN Sustainable Development Goals, we passionately work towards creating a brighter, more inclusive future for all.</p>
-                </div>
+                    <ul class="cta-list">
+                        <li>Raise funds with a crowdfunding campaign</li>
+                        <li>Extend your campaign with InDemand</li>
+                    </ul>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-md-6 col-lg-4 mb-4">
-                <div class="card category-item text-center">
-                    <img src="./images/dart-mission-goal-success-svgrepo-com.svg" class="card-img-top" alt="Mission Icon">
-                    <div class="card-body">
-                    <h5 class="card-title">MISSION</h5>
-                    <p class="card-text">Empowering communities through diverse initiatives for sustainable development.</p>
-                    </div>
-                </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mb-4">
-                <div class="card category-item text-center">
-                    <img src="./images/vision-svgrepo-com(1).svg" class="card-img-top" alt="Vision Icon">
-                    <div class="card-body">
-                    <h5 class="card-title">VISION</h5>
-                    <p class="card-text">Fostering a future where our collective efforts drive global well-being and prosperity.</p>
-                    </div>
-                </div>
-                </div>
+        </div>
+    </div>
+</section>
 
-                <div class="col-md-6 col-lg-4 mb-4">
-                <div class="card category-item text-center">
-                    <img src="./images/value-proposition-offer-value-submit-a-proposal-offer-a-benefit-svgrepo-com.svg" class="card-img-top" alt="Vision Icon">
-                    <div class="card-body">
-                    <h5 class="card-title">CORE VALUES</h5>
-                    <p class="card-text">Our identity, LIFE-MAC, is an acronym coined from the initial letters of our core values.</p>
-                    </div>
-                </div>
-                </div>
-            </div>
-            </div>
-        </section>
-              
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const video = document.getElementById('myVideo');
+    const playButton = document.getElementById('playButton');
+    const gifOverlay = document.getElementById('gifOverlay');
 
+    // Pause the video by default
+    video.pause();
 
-            <section class="cta-area cta-bg">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-xl-6 col-lg-8 d-flex align-items-center">  <video autoplay muted width="560" height="315">  <source src="./Midea/Doing the most good with your charitable donations.mp4" type="video/mp4">
-                        </video>
-                        <div class="col-xl-6 col-lg-10 cta-content ms-4">  <div class="section-title mb-18">
-                                <span class="sub-title">-- Call To Action</span>
-                                <h4 class="title">We Help at Every Step from Concept.</h4>
-                            </div>
-                            
-                            <ul class="cta-list">
-                                <li>Raise funds with a crowdfunding campaign</li>
-                                <li>Extend your campaign with InDemand</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </section>
+    // Toggle video play/pause when clicking the GIF overlay
+    gifOverlay.addEventListener('click', function () {
+        if (video.paused) {
+            video.play();
+            gifOverlay.style.display = 'none';
+        } else {
+            video.pause();
+            gifOverlay.style.display = 'block';
+        }
+    });
+
+    // Toggle video play/pause when clicking the play button
+    playButton.addEventListener('click', function () {
+        if (video.paused) {
+            video.play();
+            gifOverlay.style.display = 'none';
+        } else {
+            video.pause();
+            gifOverlay.style.display = 'block';
+        }
+    });
+
+    // Toggle video play/pause when clicking the video
+    video.addEventListener('click', function () {
+        if (video.paused) {
+            video.play();
+            gifOverlay.style.display = 'none';
+        } else {
+            video.pause();
+            gifOverlay.style.display = 'block';
+        }
+    });
+});
+
+</script>
 
             
             <!-- project-area -->
