@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="./stylesSheet/default.css">
         <link rel="stylesheet" href="./stylesSheet/style.css">
         <link rel="stylesheet" href="./stylesSheet/responsive.css">
-    
-    </head>
+
+ 
+            </head>
 
