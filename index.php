@@ -47,12 +47,12 @@ include('./include/navbar.php');
                 </div>
                 <div class="col-xl-6 col-lg-10 cta-content ms-4">
                     <div class="section-title mb-18">
-                        <span class="sub-title">-- Call To Action</span>
+                        <span class="sub-title">--Life-Mac Africa Charity video</span>
                         <h4 class="title">We Help at Every Step from Concept.</h4>
                     </div>
                     <ul class="cta-list">
-                        <li>Raise funds with a crowdfunding campaign</li>
-                        <li>Extend your campaign with InDemand</li>
+                        <li>Raise funds with a Life-Mac Africa campaign</li>
+                        <li>Extend your campaign with Life-Mac Africa</li>
                     </ul>
                 </div>
             </div>

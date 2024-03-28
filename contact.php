@@ -27,6 +27,21 @@ include('./include/navbar.php');
         <!-- Image with Text under navbar -->
 
  
+        <!-- Contact form -->
+        <div class="container1">
+        <form action="submit.php" method="POST">
+            <h2>Contact Us</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+
+
 
      
 <?php

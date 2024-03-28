@@ -57,11 +57,7 @@
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">
                                             <li class="active dropdown"><a href="./index.php">Home</a>
-                                                <ul class="submenu">
-                                                    <li class="active"><a href="#">Home One</a></li>
-                                                    <li><a href="#">Home Two</a></li>
-                                                    <li><a href="#">Home Three</a></li>
-                                                </ul>
+                                              
                                             <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div></li>
                                         <!-- Home Ends here -->
 
