@@ -1,14 +1,13 @@
 <?php
 include('./include/header.php');
 include('./include/navbar.php');
-
 ?>
 
 
 
 
         <!-- main-area -->
-        <main>
+<main>
         <!-- Image with Text under navbar -->
     <section class="slider-area">
     <div class="slider-active">
@@ -38,7 +37,7 @@ include('./include/navbar.php');
                 <div class="video-container position-relative">
                     <!-- Add SVG animation here -->
                     <div class="svg-animation"></div>
-                    <video id="myVideo" width="560" height="315" autoplay muted loop>
+                    <video id="myVideo" width="400" height="315" autoplay muted loop>
                         <source src="./Midea/Doing the most good with your charitable donations.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
@@ -360,7 +359,7 @@ exercitation ullamco laboris nisi ut aliquip.</p>
                         <div class="col-xl-6 col-lg-5">
                             <div class="section-title title-style-two mb-50">
                                 <span class="sub-title">-- Testimonials</span>
-                                <h2 class="title">Happy Children</h2>
+                                <h2 class="title">LIFE-MAC AFRICA</h2>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-7">
