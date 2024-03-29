@@ -1,4 +1,8 @@
+<?php
+include('./include/header.php');
+include('./include/navbar.php');
 
+?>
           <!-- Preloader area start -->
           <div id="loading" style="display: none;">
         <div id="loading-center">

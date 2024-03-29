@@ -1,14 +1,13 @@
 <?php
 include('./include/header.php');
 include('./include/navbar.php');
-
 ?>
 
 
 
 
         <!-- main-area -->
-        <main>
+<main>
         <!-- Image with Text under navbar -->
     <section class="slider-area">
     <div class="slider-active">
@@ -17,7 +16,7 @@ include('./include/navbar.php');
                 <div class="row">
                     <div class="col-12">
                         <div class="slider-content text-center">
-                            <h6>Raise money for the poor and needy</h6>
+                            <h6><i class="fas fa-dollar-sign"></i>Raise money for the poor and needy</h6>
                             <h2>Empower a child with your donation</h2>
                             <div class="slider-btn">
                                 <a href="#" class="btn black-btn">Donate<i class="fas fa-heart"></i></a>
@@ -38,7 +37,7 @@ include('./include/navbar.php');
                 <div class="video-container position-relative">
                     <!-- Add SVG animation here -->
                     <div class="svg-animation"></div>
-                    <video id="myVideo" width="560" height="315" autoplay muted loop>
+                    <video id="myVideo" width="400" height="315" autoplay muted loop>
                         <source src="./Midea/Doing the most good with your charitable donations.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
@@ -335,7 +334,7 @@ include('./include/navbar.php');
                         <div class="col-xl-6 col-lg-10">
                             <div class="cta-content">
                                 <div class="section-title mb-25">
-                                    <span class="sub-title">-- Call To Action</span>
+                                    <span class="sub-title">-- Life-Mac Action</span>
                                     <h2 class="title">We Help at Every Step from Concept.</h2>
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, 
@@ -343,8 +342,8 @@ consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
 exercitation ullamco laboris nisi ut aliquip.</p>
                                 <ul class="cta-list">
-                                    <li>Raise funds with a crowdfunding campaign</li>
-                                    <li>Extend your campaign with InDemand</li>
+                                    <li>Raise funds with a Lifa-Mac campaign</li>
+                                    <li>Extend your campaign with Life-Mac Africa</li>
                                 </ul>
                             </div>
                         </div>
@@ -360,7 +359,7 @@ exercitation ullamco laboris nisi ut aliquip.</p>
                         <div class="col-xl-6 col-lg-5">
                             <div class="section-title title-style-two mb-50">
                                 <span class="sub-title">-- Testimonials</span>
-                                <h2 class="title">Happy Children</h2>
+                                <h2 class="title">LIFE-MAC AFRICA</h2>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-7">
