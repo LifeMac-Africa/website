@@ -4,6 +4,9 @@ include('./include/navbar.php');
 ?>
 
 
+
+
+
 <!-- Image with Text under navbar -->
 <section class="slider-area">
     <div class="slider-active">
