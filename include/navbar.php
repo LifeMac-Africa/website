@@ -13,7 +13,7 @@
 
 		<!-- Scroll-top -->
         <button class="scroll-top scroll-to-target open" data-target="html">
-            <i class="fas fa-angle-up"></i>
+        <i class="bi bi-arrow-up-circle"></i>
         </button>
         <!-- Scroll-top-end-->
 

@@ -14,7 +14,7 @@ include('./include/navbar.php');
                             <h6>Raise money for the poor and needy</h6>
                             <h2>Empower a child with your donation</h2>
                             <div class="slider-btn">
-                                <a href="#" class="btn black-btn">Donate<i class="fal fa-heart"></i></a>
+                                <a href="#" class="btn black-btn">Donate<i class="bi bi-arrow-through-heart-fill "></i></a>
                             </div>
                         </div>
                     </div>

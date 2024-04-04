@@ -1,30 +1,32 @@
 /* Mission, vision card Css  */
- .category-item {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    transition: all 0.3s ease;
+.category-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: all 0.3s ease;
 }
 
 .category-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .card-img-top {
-    width: 80px;
-    height: 80px;
-    margin: 20px auto;
+  width: 40px;
+  height: 60px;
+  margin: 20px auto;
+  filter: brightness(0%); /* Set brightness to 0% to make the image black */
 }
 
 .card-title {
-    font-size: 20px;
-    margin-bottom: 15px;
+  font-size: 20px;
+  margin-bottom: 15px;
 }
 
 .card-text {
-    font-size: 16px;
+  font-size: 14px;
 }
+
 /* Mission, vision card Css  */
 
 
@@ -33,16 +35,17 @@
 .video-container {
     position: relative;
 }
-
 .gif-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%; 
+  height: 40%; 
+  object-fit: cover;
+  z-index: 1;
 }
+
 
 #myVideo {
     position: relative;
@@ -110,6 +113,34 @@
     background-color: #0056b3;
   }
   /* Contact us form Css */
+
+
+
+
+/* icon style */
+.bi-arrow-through-heart-fill {
+  font-size: 20px; 
+}
+.bi-arrow-up-circle {
+  font-size: 30px; 
+}
+/* icon style */
+.section-title.sub-titl {
+  font-size: 16px; /* Adjust the size as needed */
+}
+
+.section-titl .titl {
+  font-size: 20px; /* Adjust the size as needed */
+}
+
+
+
+
+
+
+
+
+
 
   .featured-donate, .featured-section {
     padding: 4em 0;

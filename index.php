@@ -20,7 +20,7 @@ include('./include/navbar.php');
                             <h6>Raise money for the poor and needy</h6>
                             <h2>Empower a child with your donation</h2>
                             <div class="slider-btn">
-                                <a href="#" class="btn black-btn">Donate<i class="fas fa-heart"></i></a>
+                                <a href="#" class="btn black-btn">Donate<i class="bi bi-arrow-through-heart-fill "></i></a>
                             </div>
                         </div>
                     </div>
@@ -29,6 +29,40 @@ include('./include/navbar.php');
         </div>
     </div>
 </section>
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="category-item">
+                <img src="../images/counter_icon04.png" class="card-img-top" alt="Mission Image">
+                <div class="card-body">
+                    <h5 class="card-title">Mission</h5>
+                    <p class="card-text">Empowering communities through diverse initiatives for sustainable development.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="category-item">
+                <img src="../images/counter_icon03.png" class="card-img-top" alt="Vision Image">
+                <div class="card-body">
+                    <h5 class="card-title">Vision</h5>
+                    <p class="card-text">Fostering futures where our collective efforts drive global well-being and prosperity</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="category-item">
+                <img src="../images/counter_icon01.png" class="card-img-top" alt="Core Value Image">
+                <div class="card-body">
+                    <h5 class="card-title">Core Value</h5>
+                    <p class="card-text">Our identity, LIFE-MAC, is an acronym coined from the initial letters of our core values.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
         <!-- Image with Text under navbar -->
         <section class="cta-area cta-bg">
@@ -48,12 +82,12 @@ include('./include/navbar.php');
                 <div class="col-xl-6 col-lg-10 cta-content ms-4">
                     <div class="section-title mb-18">
                         <span class="sub-title">--Life-Mac Africa Charity video</span>
-                        <h4 class="title">We Help at Every Step from Concept.</h4>
+                        <h6 class="titl">We Help at Every Step from Concept.</h6>
                     </div>
-                    <ul class="cta-list">
-                        <li>Raise funds with a Life-Mac Africa campaign</li>
-                        <li>Extend your campaign with Life-Mac Africa</li>
-                    </ul>
+                    <ul class="cta-">
+                    <li><i class="bi bi-arrow-right-circle-fill" style="color:white;" >Raise funds with a Life-Mac Africa campaign </i> </li>
+                    <li><i class="bi bi-arrow-right-circle-fill"  style="color:white;">Extend your campaign with Life-Mac Africa</i></li>
+                </ul>
                 </div>
             </div>
         </div>
@@ -335,17 +369,10 @@ include('./include/navbar.php');
                         <div class="col-xl-6 col-lg-10">
                             <div class="cta-content">
                                 <div class="section-title mb-25">
-                                    <span class="sub-title">-- Call To Action</span>
                                     <h2 class="title">We Help at Every Step from Concept.</h2>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, 
-consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
- et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-exercitation ullamco laboris nisi ut aliquip.</p>
-                                <ul class="cta-list">
-                                    <li>Raise funds with a crowdfunding campaign</li>
-                                    <li>Extend your campaign with InDemand</li>
-                                </ul>
+                                <p>At LIFE-MAC Africa, we foster an inclusive culture by embracing diversity and supporting employees from diverse backgrounds. Through our comprehensive initiatives aligned with the UN Global Goals, we provide opportunities for all to contribute and thrive, regardless of background. Together, we work towards driving positive societal change and creating a brighter, more inclusive future for all..</p>
+                                
                             </div>
                         </div>
                     </div>
@@ -365,10 +392,7 @@ exercitation ullamco laboris nisi ut aliquip.</p>
                         </div>
                         <div class="col-xl-6 col-lg-7">
                             <div class="section-text mb-50">
-                                <p>Lorem ipsum dolor sit amet, 
-consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
- et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-exercitation ullamco laboris nisi ut aliquip.</p>
+                                <p>At LIFE-MAC Africa, we foster an inclusive culture by embracing diversity and supporting employees from diverse backgrounds. Through our comprehensive initiatives aligned with the UN Global Goals, we provide opportunities for all to contribute and thrive, regardless of background. Together, we work towards driving positive societal change and creating a brighter, more inclusive future for all..</p>
                             </div>
                         </div>
                     </div>
@@ -396,18 +420,14 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                         </div>
                                     </div>
                                     <div class="testi-icon">
-                                        <i class="fas fa-star"></i>
+                                    <i class="bi bi-star-fill"></i>
                                     </div>
                                 </div>
                             </div>
                         </div><div class="col-lg-4 slick-slide slick-cloned" data-slick-index="-2" id="" aria-hidden="true" style="width: 400px;" tabindex="-1">
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>When you think about collecting 
-customer feed back, it’s easy to get overwhelmed by the sheer volume of
-                                        possibilities. With so many more
- customers — and so many ways to connect with their feedback — it’s hard
-                                        to know to where to start.</p>
+                                    <p>At LIFE-MAC Africa, we foster an inclusive culture by embracing diversity and supporting employees from diverse backgrounds. Through our comprehensive initiatives aligned with the UN Global Goals, we provide opportunities for all to contribute and thrive, regardless of background. Together, we work towards driving positive societal change and creating a brighter, more inclusive future for all.</p>
                                 </div>
                                 <div class="testi-avatar-wrap">
                                     <div class="testi-avatar-info">
@@ -422,18 +442,14 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                         </div>
                                     </div>
                                     <div class="testi-icon">
-                                        <i class="fas fa-star"></i>
+                                    <i class="bi bi-star-fill"></i>
                                     </div>
                                 </div>
                             </div>
                         </div><div class="col-lg-4 slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" style="width: 400px;" tabindex="-1">
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>When you think about collecting 
-customer feed back, it’s easy to get overwhelmed by the sheer volume of
-                                        possibilities. With so many more
- customers — and so many ways to connect with their feedback — it’s hard
-                                        to know to where to start.</p>
+                                    <p>At LIFE-MAC Africa, we foster an inclusive culture by embracing diversity and supporting employees from diverse backgrounds. Through our comprehensive initiatives aligned with the UN Global Goals, we provide opportunities for all to contribute and thrive, regardless of background. Together, we work towards driving positive societal change and creating a brighter, more inclusive future for all.</p>
                                 </div>
                                 <div class="testi-avatar-wrap">
                                     <div class="testi-avatar-info">
@@ -448,7 +464,7 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                         </div>
                                     </div>
                                     <div class="testi-icon">
-                                        <i class="fas fa-star"></i>
+                                    <i class="bi bi-star-fill"></i>
                                     </div>
                                 </div>
                             </div>
@@ -474,7 +490,7 @@ possibilities. With so many more customers — and so many ways to connect
                                         </div>
                                     </div>
                                     <div class="testi-icon">
-                                        <i class="fas fa-star"></i>
+                                    <i class="bi bi-star-fill"></i>
                                     </div>
                                 </div>
                             </div>
@@ -501,7 +517,7 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                         </div>
                                     </div>
                                     <div class="testi-icon">
-                                        <i class="fas fa-star"></i>
+                                    <i class="bi bi-star-fill"></i>
                                     </div>
                                 </div>
                             </div>
@@ -510,11 +526,7 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                         </div><div class="col-lg-4 slick-slide slick-current slick-active" data-slick-index="2" aria-hidden="false" style="width: 400px;" tabindex="0" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02">
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>When you think about collecting 
-                                    customer feed back, it’s easy to get overwhelmed by the sheer volume of
-                                                                            possibilities. With so many more
-                                    customers — and so many ways to connect with their feedback — it’s hard
-                                        to know to where to start.</p>
+                                    <p>At LIFE-MAC Africa, we foster an inclusive culture by embracing diversity and supporting employees from diverse backgrounds. Through our comprehensive initiatives aligned with the UN Global Goals, we provide opportunities for all to contribute and thrive, regardless of background. Together, we work towards driving positive societal change and creating a brighter, more inclusive future for all.</p>
                                 </div>
                                 <div class="testi-avatar-wrap">
                                     <div class="testi-avatar-info">
@@ -529,7 +541,7 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                         </div>
                                     </div>
                                     <div class="testi-icon">
-                                        <i class="fas fa-star"></i>
+                                    <i class="bi bi-star-fill"></i>
                                     </div>
                                 </div>
                             </div>
@@ -538,11 +550,7 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                         </div><div class="col-lg-4 slick-slide slick-active" data-slick-index="3" aria-hidden="false" style="width: 400px;" tabindex="0" role="tabpanel" id="slick-slide03" aria-describedby="slick-slide-control03">
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>When you think about collecting 
-customer feed back, it’s easy to get overwhelmed by the sheer volume of
-                                        possibilities. With so many more
- customers — and so many ways to connect with their feedback — it’s hard
-                                        to know to where to start.</p>
+                                    <p>At LIFE-MAC Africa, we foster an inclusive culture by embracing diversity and supporting employees from diverse backgrounds. Through our comprehensive initiatives aligned with the UN Global Goals, we provide opportunities for all to contribute and thrive, regardless of background. Together, we work towards driving positive societal change and creating a brighter, more inclusive future for all.</p>
                                 </div>
                                 <div class="testi-avatar-wrap">
                                     <div class="testi-avatar-info">
@@ -557,7 +565,7 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                         </div>
                                     </div>
                                     <div class="testi-icon">
-                                        <i class="fas fa-star"></i>
+                                    <i class="bi bi-star-fill"></i>
                                     </div>
                                 </div>
                             </div>
@@ -565,11 +573,7 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                         </div><div class="col-lg-4 slick-slide slick-cloned" data-slick-index="6" id="" aria-hidden="true" style="width: 400px;" tabindex="-1">
                             <div class="testimonial-item">
                                 <div class="testimonial-content">
-                                    <p>When you think about collecting 
-customer feed back, it’s easy to get overwhelmed by the sheer volume of
-                                        possibilities. With so many more
- customers — and so many ways to connect with their feedback — it’s hard
-                                        to know to where to start.</p>
+                                    <p>At LIFE-MAC Africa, we foster an inclusive culture by embracing diversity and supporting employees from diverse backgrounds. Through our comprehensive initiatives aligned with the UN Global Goals, we provide opportunities for all to contribute and thrive, regardless of background. Together, we work towards driving positive societal change and creating a brighter, more inclusive future for all.</p>
                                 </div>
                                 
                                 <div class="testi-avatar-wrap">
@@ -585,7 +589,7 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                         </div>
                                     </div>
                                     <div class="testi-icon">
-                                        <i class="fas fa-star"></i>
+                                    <i class="bi bi-star-fill"></i>
                                     </div>
                                 </div>
                             </div>
