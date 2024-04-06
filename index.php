@@ -270,8 +270,7 @@ include('./include/navbar.php');
             </section>
             <!-- project-area-end -->
 
-            <div id="map"></div>
-
+            
             <!-- counter-area -->
             <section class="counter-area">
                 <div class="container">
@@ -668,14 +667,6 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
 <?php
 include('./include/footer.php');
 ?>
-<script>
-function initMap() {
-    var map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: -34.397, lng: 150.644},
-        zoom: 8
-    });
-}
-</script>
 
 		<!-- JS here -->
         <script src="./js/jquery-3.6.0.min.js"></script>
@@ -694,6 +685,5 @@ function initMap() {
         <script src="./js/main.js"></script>
            <!-- Video Js -->
         <script src="./js/video.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClZddZADszEqYc6_vHmqcSrvF4xS46jSk&callback=initMap" async defer></script>
 
 </body>

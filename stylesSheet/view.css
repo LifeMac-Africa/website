@@ -1,30 +1,32 @@
 /* Mission, vision card Css  */
- .category-item {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    transition: all 0.3s ease;
+.category-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: all 0.3s ease;
 }
 
 .category-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .card-img-top {
-    width: 80px;
-    height: 80px;
-    margin: 20px auto;
+  width: 40px;
+  height: 60px;
+  margin: 20px auto;
+  filter: brightness(0%); /* Set brightness to 0% to make the image black */
 }
 
 .card-title {
-    font-size: 20px;
-    margin-bottom: 15px;
+  font-size: 20px;
+  margin-bottom: 15px;
 }
 
 .card-text {
-    font-size: 16px;
+  font-size: 14px;
 }
+
 /* Mission, vision card Css  */
 
 
@@ -34,18 +36,16 @@
   position: relative;
   text-align: center;
 }
-
 .gif-overlay {
     position: absolute;
-    width: 40%;
-    height: 40%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     z-index: 1;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  cursor: pointer;
 }
+
 
 #myVideo {
     position: relative;
@@ -113,3 +113,335 @@
     background-color: #0056b3;
   }
   /* Contact us form Css */
+
+
+
+/* About us Card */
+.container {
+  margin: 10px;
+  display: flex;
+} 
+
+.profile-wrapper {
+  width: 22rem;
+  height: 28rem;
+  position: relative;
+  margin: 20px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  width: 22rem;
+  height: 28rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.profile .profile-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: var(--background);
+  transition: .5s;
+}
+
+.profile-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.profile:hover img {
+  opacity: 0.4;
+  transition: .5s;
+}
+
+.profile:hover .profile-image {
+  transform: translateY(-104px);
+  transition: all .9s;
+}
+
+.profile:hover .profile-bio {
+  opacity: 0.9; 
+}
+
+.social-icons {
+  position: absolute;
+  display: flex;
+  gap: 0.75rem;
+  z-index: 3;
+  bottom: 10.125rem;
+}
+
+.social-icons li {
+  list-style: none;
+}
+
+.social-icons li a {
+  position: relative;
+  display: block;
+  display: grid;
+  place-items: center;
+  background: #fff;
+  font-size: 23px;
+  font-weight: bold;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid #CDCDCD;
+  border-radius: 0.5rem;
+  transition: .2s;
+  transform: translateY(2rem);
+  opacity: 0;
+}
+
+.social-icons li a:hover {
+  background: var(--background);
+  transition: .2s;
+}
+
+.social-icons li a svg {
+  color: var(--background);
+  transition: .2s;
+}
+
+.social-icons li a:hover svg {
+  color: white;
+  transition: 0.8s;
+  transform: rotateY(360deg);
+}
+
+.profile:hover .social-icons li a {
+  opacity: 1; 
+}
+
+.profile:hover li:nth-child(1) a {
+  transition-delay: 0.1s;
+}
+
+.profile:hover li:nth-child(2) a {
+  transition-delay: 0.2s;
+}
+
+.profile:hover li:nth-child(3) a {
+  transition-delay: 0.3s;
+}
+
+.profile:hover li:nth-child(4) a {
+  transition-delay: 0.4s;
+}
+
+.profile-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 4;
+  width: 100%;
+  height: 7rem;
+  padding: 0.75rem 0.875rem;
+  z-index: 1;
+  color: #333;
+  background-color: #fff;
+  text-align: left;
+}
+
+.profile:hover .profile-name {
+  background-color: #fff;
+}
+
+.profile-name h2 {
+  margin-bottom: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .featured-donate, .featured-section {
+    padding: 4em 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; }
+    .featured-donate img, .featured-section img {
+      -webkit-box-shadow: 0 4px 30px -5px black;
+      box-shadow: 0 4px 30px -5px black;
+      border-radius: 7px; }
+    .featured-donate h2, .featured-section h2 {
+      color: #fff; }
+    .featured-donate p, .featured-section p {
+      color: #fff; }
+    .featured-donate .featured-text, .featured-section .featured-text {
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: .2em; }
+    .featured-donate .donation-time, .featured-section .donation-time {
+      color: rgba(255, 255, 255, 0.7);
+      display: block;
+      font-style: italic;
+      font-size: 15px; }
+    .featured-donate .fund-raised,  .fund-raised {
+      font-weight: 900;
+      color: #fff; }
+
+     /* Overlay for the volunteer page */
+      .overlay {
+        position: relative;
+      }
+  
+      .overlay:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: #009e74; /* Adjust the opacity here */
+        opacity: 0.7;
+      }
+  
+      /* Content CSS */
+      .container {
+        position: relative;
+        z-index: 1;
+      }
+
+
+
+  .form-volunteer h2 {
+    font-size: 25px;
+    margin-bottom: 20px; }
+  
+  .form-volunteer label {
+    color: #fff; }
+  
+  .form-volunteer .form-control {
+    border: 2px solid #fff;
+    background: none !important;
+    margin-bottom: 10px;
+    color: #fff !important; }
+    .form-volunteer .form-control::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #fff;
+      font-style: italic; }
+    .form-volunteer .form-control::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #fff;
+      font-style: italic; }
+    .form-volunteer .form-control:-ms-input-placeholder {
+      /* IE 10+ */
+      color: #fff;
+      font-style: italic; }
+    .form-volunteer .form-control:-moz-placeholder {
+      /* Firefox 18- */
+      color: #fff;
+      font-style: italic; }
+  
+  .custom-progress {
+    background-color: #fff;
+    height: .2rem;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 10px; }
+  
+  .person-donate em {
+    font-family: serif; }
+  
+  .person-donate img {
+    border-radius: 7px;
+    width: 180px;
+    margin-bottom: 20px; }
+  
+  .person-donate h2 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0; }
+  
+  .person-donate p {
+    line-height: 1.5; }
+  
+  .person-donate .time {
+    color: #b3b3b3;
+    font-size: 13px; }
+  
+  .person-donate .donate-amount > div {
+    width: 50%;
+    padding: 10px; }
+  
+  .person-donate .donate-amount .label {
+    background: #f2f2f2; }
+  
+  .person-donate .donate-amount .amount {
+    background: #009e74;
+    color: #fff; }
+  
+  .fundraise-item {
+    -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.1);
+    border: none;
+    height: 100%; }
+    .fundraise-item .custom-progress-success {
+      background-color: #f2f2f2;
+      height: .2rem;
+      border-radius: 4px;
+      margin-bottom: 20px; }
+    .fundraise-item a {
+      color: #000; }
+      .fundraise-item a:hover {
+        color: #009e74; }
+    .fundraise-item .donation-time {
+      color: #ccc;
+      display: block;
+      font-style: italic;
+      font-size: 15px; }
+    .fundraise-item .card-title {
+      font-size: 24px; }
+  
+  .ftco-animate {
+    opacity: 0;
+    visibility: hidden; }
+  
+  .bg-primary {
+    background: #009e74 !important; }
+  
+  .site-section {
+    padding: 4em 0; }
+  
+  .border-top {
+    border-top: 1px solid #f2f2f2 !important; }
+  
+  .ftco-bg-dark {
+    background: #3c312e; }
+  
