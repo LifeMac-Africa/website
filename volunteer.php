@@ -7,7 +7,7 @@ include('./include/navbar.php');
 <!-- Image with Text under navbar -->
 <section class="slider-area">
     <div class="slider-active">
-        <div class="single-slider slider-bg" data-background="./images/Rectangle-94.png" style="background-image: url('./images/Rectangle-94.png');">
+        <div class="single-slider slider-bg" data-background="./images/bg_1.jpg" style="background-image: url('./images/bg_1.jpg');">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -30,13 +30,7 @@ include('./include/navbar.php');
 <!-- Volunteers pages -->
 <div class="site-section fund-raisers">
     <div class="container">
-        <div class="row mb-3 justify-content-center">
-            <div class="col-md-8 text-center">
-                <h2>Latest Donations</h2>
-                <p class="lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p class="mb-5"><a href="#" class="link-underline">View All Donations</a></p>
-            </div>
-        </div>
+   
 
         <div class="row">
             <div class="col-md-6 col-lg-3 mb-5">
