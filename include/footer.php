@@ -49,9 +49,9 @@ include('./include/header.php');
                                     </div>
                                     <div class="footer-social">
                                         <ul>
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                            <li><a href="#"><i class="bi bi-twitter-x"></i></a></li>
+                                            <li><a href="#"><i class="bi bi-youtube"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -67,7 +67,7 @@ include('./include/header.php');
                                                     <a href="#"><img src="images/f_blog_img01.jpg" alt=""></a>
                                                 </div>
                                                 <div class="content">
-                                                    <span><i class="fas fa-calendar-alt"></i>23rd January 2022</span>
+                                                    <span><i class="bi bi-calendar-month"></i>23rd January 2022</span>
                                                     <h2 class="title"><a href="#">Honest and Clear Presentation in Projects</a></h2>
                                                 </div>
                                             </li>
@@ -76,7 +76,7 @@ include('./include/header.php');
                                                     <a href="#"><img src="images/f_blog_img02.jpg" alt=""></a>
                                                 </div>
                                                 <div class="content">
-                                                    <span><i class="fas fa-calendar-alt"></i>23rd June 2023</span>
+                                                    <span><i class="bi bi-calendar-month"></i>23rd June 2023</span>
                                                     <h2 class="title"><a href="#">Simply popular belief tradition contrary lorem</a></h2>
                                                 </div>
                                             </li>
@@ -85,7 +85,7 @@ include('./include/header.php');
                                                     <a href="#"><img src="images/f_blog_img03.jpg" alt=""></a>
                                                 </div>
                                                 <div class="content">
-                                                    <span><i class="fas fa-calendar-alt"></i>23rd June 2024</span>
+                                                    <span><i class="bi bi-calendar-month"></i>23rd June 2024</span>
                                                     <h2 class="title"><a href="#">Popular contrary to traditional lorem ipsum</a></h2>
                                                 </div>
                                             </li>

@@ -132,9 +132,20 @@
 .section-titl .titl {
   font-size: 20px; /* Adjust the size as needed */
 }
-
-
-
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+.africa-map {
+  text-align: center;
+  margin-top: 20px;
+}
+.africa-map img {
+  max-width: 100%; 
+  height: auto;
+  border: 1px solid #ccc; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
 
 

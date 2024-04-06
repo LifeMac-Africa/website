@@ -61,6 +61,10 @@
                                             <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div></li>
                                         <!-- Home Ends here -->
 
+                                        <!-- Programs -->
+                                        <li><a href="./programs.php">Programs</a></li>
+                                             <!-- Programs -->
+
 
                                                 <!-- About start here -->
                                             <li><a href="./about.php">About</a></li>
@@ -70,10 +74,10 @@
                                                 <!-- Volunteer Team -->
                                             <li class="dropdown"><a href="./volunteer.php">Volunteer</a>
                                                 <ul class="submenu">
-                                                    <li><a href="#">Team 1</a></li>
-                                                    <li><a href="#">Team 2</a></li>
-                                                    <li><a href="#">Team 2</a></li>
-                                                    <li><a href="#">Team 2</a></li>
+                                                    <li><a href="#">Overview of Volunteering</a></li>
+                                                    <li><a href="#">Benefits of Volunteering</a></li>
+                                                    <li><a href="#">Volunteer Opportunities</a></li>
+                                                    <li><a href="#">Volunteer FAQ</a></li>
                                                 </ul>
                                                 <!-- Volunteer Ends Here -->
                                           

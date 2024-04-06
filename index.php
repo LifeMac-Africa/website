@@ -35,7 +35,7 @@ include('./include/navbar.php');
     <div class="row">
         <div class="col-md-4">
             <div class="category-item">
-                <img src="../images/counter_icon04.png" class="card-img-top" alt="Mission Image">
+                <img src="../images/dart-mission-goal-success-svgrepo-com.svg" class="card-img-top" alt="Mission Image">
                 <div class="card-body">
                     <h5 class="card-title">Mission</h5>
                     <p class="card-text">Empowering communities through diverse initiatives for sustainable development.</p>
@@ -44,7 +44,7 @@ include('./include/navbar.php');
         </div>
         <div class="col-md-4">
             <div class="category-item">
-                <img src="../images/counter_icon03.png" class="card-img-top" alt="Vision Image">
+                <img src="../images/vision-svgrepo-com(1).svg" class="card-img-top" alt="Vision Image">
                 <div class="card-body">
                     <h5 class="card-title">Vision</h5>
                     <p class="card-text">Fostering futures where our collective efforts drive global well-being and prosperity</p>
@@ -53,7 +53,7 @@ include('./include/navbar.php');
         </div>
         <div class="col-md-4">
             <div class="category-item">
-                <img src="../images/counter_icon01.png" class="card-img-top" alt="Core Value Image">
+                <img src="../images/value-proposition-offer-value-submit-a-proposal-offer-a-benefit-svgrepo-com.svg" class="card-img-top" alt="Core Value Image">
                 <div class="card-body">
                     <h5 class="card-title">Core Value</h5>
                     <p class="card-text">Our identity, LIFE-MAC, is an acronym coined from the initial letters of our core values.</p>
@@ -304,6 +304,11 @@ include('./include/navbar.php');
             </section>
             <!-- project-area-end -->
 
+            <h1>Helping children across Africa</h1>
+            <figure class="africa-map">
+            <img src="./images/where-is-ghana.webp" alt="Map of Africa">
+            </figure>
+
             <!-- counter-area -->
             <section class="counter-area">
                 <div class="container">
@@ -369,7 +374,7 @@ include('./include/navbar.php');
                         <div class="col-xl-6 col-lg-10">
                             <div class="cta-content">
                                 <div class="section-title mb-25">
-                                    <h2 class="title">We Help at Every Step from Concept.</h2>
+                                    <h2 class="title">We are Life-Mac Africa charity foundation.</h2>
                                 </div>
                                 <p>At LIFE-MAC Africa, we foster an inclusive culture by embracing diversity and supporting employees from diverse backgrounds. Through our comprehensive initiatives aligned with the UN Global Goals, we provide opportunities for all to contribute and thrive, regardless of background. Together, we work towards driving positive societal change and creating a brighter, more inclusive future for all..</p>
                                 
