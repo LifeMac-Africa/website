@@ -11,6 +11,7 @@
         <!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+        
 		<!-- CSS here -->
         <link rel="stylesheet" href="./stylesSheet/bootstrap.min.css">
         <link rel="stylesheet" href="./stylesSheet/animate.min.css">
@@ -24,6 +25,5 @@
         <link rel="stylesheet" href="./stylesSheet/style.css">
         <link rel="stylesheet" href="./stylesSheet/responsive.css">
 
- 
-            </head>
+ </head>
 
