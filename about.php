@@ -29,7 +29,7 @@ include('./include/navbar.php');
         <!-- Image with Text under navbar -->
 
  
-        <div class="container">       
+        <div class="container2">       
             <div class="profile-wrapper">
                 <div class="profile">
                     <div class="profile-image">

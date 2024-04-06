@@ -20,7 +20,7 @@ include('./include/navbar.php');
                             <h6>Raise money for the poor and needy</h6>
                             <h2>Empower a child with your donation</h2>
                             <div class="slider-btn">
-                                <a href="#" class="btn black-btn">Donate<i class="fas fa-heart"></i></a>
+                                <a href="#" class="btn black-btn">Donate<i class="bi bi-arrow-through-heart-fill"></i></a>
                             </div>
                         </div>
                     </div>
@@ -47,12 +47,12 @@ include('./include/navbar.php');
                 </div>
                 <div class="col-xl-6 col-lg-10 cta-content ms-4">
                     <div class="section-title mb-18">
-                        <span class="sub-title">--Life-Mac Africa Charity video</span>
+                        <span class="sub-title">-- Call To Action</span>
                         <h4 class="title">We Help at Every Step from Concept.</h4>
                     </div>
                     <ul class="cta-list">
-                        <li>Raise funds with a Life-Mac Africa campaign</li>
-                        <li>Extend your campaign with Life-Mac Africa</li>
+                        <li>Raise funds with a crowdfunding campaign</li>
+                        <li>Extend your campaign with InDemand</li>
                     </ul>
                 </div>
             </div>
@@ -337,15 +337,12 @@ include('./include/navbar.php');
                             <div class="cta-content">
                                 <div class="section-title mb-25">
                                     <span class="sub-title">-- Call To Action</span>
-                                    <h2 class="title">We Help at Every Step from Concept.</h2>
+                                    <h4 class="title">We are Life-Mac Africa Charity Foundation</h4>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, 
-consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
- et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-exercitation ullamco laboris nisi ut aliquip.</p>
+                                <p>At LIFE-MAC Africa, we foster an inclusive culture by embracing diversity and supporting employees from diverse backgrounds. Through our comprehensive initiatives aligned with the UN Global Goals, we provide opportunities for all to contribute and thrive, regardless of background. Together, we work towards driving positive societal change and creating a brighter, more inclusive future for all.</p>
                                 <ul class="cta-list">
-                                    <li>Raise funds with a crowdfunding campaign</li>
-                                    <li>Extend your campaign with InDemand</li>
+                                <li>Raise funds with a Life-Mac Africa campaign</li>
+                                  <li>Extend your campaign with Life-Mac Africa</li>
                                 </ul>
                             </div>
                         </div>
@@ -397,7 +394,7 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                         </div>
                                     </div>
                                     <div class="testi-icon">
-                                        <i class="fas fa-star"></i>
+                                       <i class="bi bi-star-fill"></i>
                                     </div>
                                 </div>
                             </div>
@@ -423,7 +420,7 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                         </div>
                                     </div>
                                     <div class="testi-icon">
-                                        <i class="fas fa-star"></i>
+                                       <i class="bi bi-star-fill"></i>
                                     </div>
                                 </div>
                             </div>
@@ -449,7 +446,7 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                         </div>
                                     </div>
                                     <div class="testi-icon">
-                                        <i class="fas fa-star"></i>
+                                       <i class="bi bi-star-fill"></i>
                                     </div>
                                 </div>
                             </div>
@@ -475,7 +472,7 @@ possibilities. With so many more customers — and so many ways to connect
                                         </div>
                                     </div>
                                     <div class="testi-icon">
-                                        <i class="fas fa-star"></i>
+                                       <i class="bi bi-star-fill"></i>
                                     </div>
                                 </div>
                             </div>
@@ -502,7 +499,7 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                         </div>
                                     </div>
                                     <div class="testi-icon">
-                                        <i class="fas fa-star"></i>
+                                       <i class="bi bi-star-fill"></i>
                                     </div>
                                 </div>
                             </div>
@@ -530,7 +527,7 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                         </div>
                                     </div>
                                     <div class="testi-icon">
-                                        <i class="fas fa-star"></i>
+                                       <i class="bi bi-star-fill"></i>
                                     </div>
                                 </div>
                             </div>
@@ -558,7 +555,7 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                         </div>
                                     </div>
                                     <div class="testi-icon">
-                                        <i class="fas fa-star"></i>
+                                       <i class="bi bi-star-fill"></i>
                                     </div>
                                 </div>
                             </div>
@@ -586,7 +583,7 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                                         </div>
                                     </div>
                                     <div class="testi-icon">
-                                        <i class="fas fa-star"></i>
+                                       <i class="bi bi-star-fill"></i>
                                     </div>
                                 </div>
                             </div>
@@ -598,6 +595,48 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
             </section>
             <!-- testimonial-area-end -->
          
+
+        </main>
+        <!-- main-area-end -->
+
+
+       
+<?php
+include('./include/footer.php');
+?>
+
+		<!-- JS here -->
+        <script src="./js/jquery-3.6.0.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/bootstrap-datepicker.min.js"></script>
+        <script src="./js/isotope.pkgd.min.js"></script>
+        <script src="./js/imagesloaded.pkgd.min.js"></script>
+        <script src="./js/jquery.magnific-popup.min.js"></script>
+        <script src="./js/jquery.odometer.min.js"></script>
+        <script src="./js/jquery.easypiechart.min.js"></script>
+        <script src="./js/jquery-ui.min.js"></script>
+        <script src="./js/jquery.inview.min.js"></script>
+        <script src="./js/jquery.appear.js"></script>
+        <script src="./js/slick.min.js"></script>
+        <script src="./js/wow.min.js"></script>
+        <script src="./js/main.js"></script>
+           <!-- Video Js -->
+        <script src="./js/video.js"></script>
+ 
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -654,36 +693,3 @@ customer feed back, it’s easy to get overwhelmed by the sheer volume of
                 </div>
             </section> -->
             <!-- brand-area-end -->
-
-         
-
-            
-
-        </main>
-        <!-- main-area-end -->
-
-
-       
-<?php
-include('./include/footer.php');
-?>
-
-		<!-- JS here -->
-        <script src="./js/jquery-3.6.0.min.js"></script>
-        <script src="./js/bootstrap.min.js"></script>
-        <script src="./js/bootstrap-datepicker.min.js"></script>
-        <script src="./js/isotope.pkgd.min.js"></script>
-        <script src="./js/imagesloaded.pkgd.min.js"></script>
-        <script src="./js/jquery.magnific-popup.min.js"></script>
-        <script src="./js/jquery.odometer.min.js"></script>
-        <script src="./js/jquery.easypiechart.min.js"></script>
-        <script src="./js/jquery-ui.min.js"></script>
-        <script src="./js/jquery.inview.min.js"></script>
-        <script src="./js/jquery.appear.js"></script>
-        <script src="./js/slick.min.js"></script>
-        <script src="./js/wow.min.js"></script>
-        <script src="./js/main.js"></script>
-           <!-- Video Js -->
-        <script src="./js/video.js"></script>
-
-</body>
