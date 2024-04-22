@@ -17,40 +17,82 @@ include('./include/header.php');
                                         <h1 style="color:white;">LIFE-MAC AFRICA</h1>
                                     </div>
                                     
-                                    <div class="footer-contact-list mb-30">
+                                    <div class="footer-contact-list mb-10">
                                         <ul>
+                                            <!-- Office Address -->
                                             <li>
                                                 <div class="icon">
-                                                    <img src="images/f_contact_icon01.png" alt="">
+                                                    <img src="images/f_contact_icon03.png" alt="">
                                                 </div>
                                                 <div class="content">
-                                                    <span>Phone Number</span>
-                                                    <a href="tel:0123456789">+233 123456789</a>
+                                                    <span>Office Address</span>
+                                                    <a href="#">First Floor, Tigoeson Plaza, Ho Technical University Junction, Ho, Ghana</a>
                                                 </div>
                                             </li>
+                                            <!-- End Office Address -->
+
+
+                                            <!-- GPS Address -->
+                                            <li>
+                                                <div class="icon">
+                                                    <img src="images/f_contact_icon03.png" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <span>GPS Address</span>
+                                                    <a href="#">VH: 0044-0884</a>
+                                                </div>
+                                            </li>
+                                            <!-- End GPS Address -->
+
+
+                                            <!-- Postal Address -->
+                                            <li>
+                                                <div class="icon">
+                                                    <img src="images/f_contact_icon03.png" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <span>Postal Address</span>
+                                                    <a href="#">P. O. Box HP 591, Ho - Volta Region, Ghana</a>
+                                                </div>
+                                            </li>
+                                            <!-- End Postal Address -->
+
+
+                                            <!-- Email -->
+                                             
                                             <li>
                                                 <div class="icon">
                                                     <img src="images/f_contact_icon02.png" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <span>Email Address</span>
-                                                    <a href="mailto:info@webmail.com">Lifemac-Africa@gmail.com</a>
+                                                    <a href="mailto:info@webmail.com">lifemacnetworkfoundation@gmail.com || info@lifemac.org</a>
                                                 </div>
                                             </li>
+                                            <!-- End Email -->
+
+                                            <!-- Phone number  -->
                                             <li>
                                                 <div class="icon">
-                                                    <img src="images/f_contact_icon03.png" alt="">
+                                                    <img src="images/f_contact_icon01.png" alt="">
                                                 </div>
                                                 <div class="content">
-                                                    <span>Ho<br></span>
+                                                    <span>Phone Number / WhatsApp</span>
+                                                    <a href="tel:0123456789">+233247500659</a>
                                                 </div>
                                             </li>
+                                            <!-- End phone Number  -->
+
                                         </ul>
                                     </div>
+                                    
+                                  
+                                    
                                     <div class="footer-social">
                                         <ul>
-                                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                                            <li><a href="#"><i class="bi bi-twitter-x"></i></a></li>
+                                            <li><a href="https://www.facebook.com/LifeMacAfrica"><i class="bi bi-facebook"></i></a></li>
+                                            <li><a href="https://twitter.com/LifeMacAfrica"><i class="bi bi-twitter-x"></i></a></li>
+                                            <li><a href="https://www.instagram.com/lifemacafrica/"><i class="bi bi-instagram"></i></a></li>
                                             <li><a href="#"><i class="bi bi-youtube"></i></a></li>
                                         </ul>
                                     </div>

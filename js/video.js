@@ -39,3 +39,24 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+
+
+
+
+
+
+
+// LOADER JS 
+document.addEventListener("DOMContentLoaded", function() {
+    const loader = document.getElementById("loading");
+
+    window.addEventListener("load", function() {
+        // Wait for 2 seconds (2000 milliseconds) before hiding the preloader
+        setTimeout(function() {
+            loader.style.display = "none";
+        }, 2000);
+    });
+});
+
+// END LOADER JS

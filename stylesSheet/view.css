@@ -115,6 +115,100 @@
 
 
 
+  
+
+/* Loader style */
+
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-image {
+  width: 50px; /* Adjust the width as per your image size */
+  height: 50; /* Adjust the height as per your image size */
+  border-radius: 100%;
+  animation: rotate 2s linear infinite; /* Add rotation animation if desired */
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* End Loader style */
+
+/* Footer icons  */
+.icon img {
+  width: 20px; 
+  height: 20px; 
+  }
+
+  /* End footer icons */
+
+
+
+
+
+/* Dropdown css */
+
+
+/* Style for the main menu items */
+.navbar-wrap .navigation > li {
+  position: relative; 
+}
+
+/* Style for the main submenu */
+.navbar-wrap .navigation > li > .submenu {
+  position: absolute;
+  left: 0; 
+  top: 100%; 
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: none;
+  min-width: 200px; 
+  z-index: 1; 
+}
+
+/* the main submenu when the main menu item is hovered over */
+.navbar-wrap .navigation > li:hover > .submenu {
+  display: block;
+}
+
+/* Style for the dropdown submenu */
+.navbar-wrap .navigation li .submenu .submenu {
+  position: absolute;
+  left: 102%; 
+  top: 0;
+  background-color: #fff;
+  padding: 10px;
+  display: none; 
+  min-width: 200px; 
+  z-index: 1; 
+}
+
+/* Show the dropdown submenu when the main submenu item is hovered over */
+.navbar-wrap .navigation li .submenu li:hover > .submenu {
+  display: block;
+}
+
+
+/* End Dropdown style */
+
+
+
+
+
+
 /* About us Card */
 .container2 {
   margin: 10px;
@@ -262,6 +356,7 @@
 }
 
 
+/* End About us Card */
 
 
 

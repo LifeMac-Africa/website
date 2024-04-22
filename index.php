@@ -7,12 +7,17 @@ include('./include/navbar.php');
 
 
 
+
+
+
+
+
         <!-- main-area -->
-        <main>
+ <main>
         <!-- Image with Text under navbar -->
     <section class="slider-area">
     <div class="slider-active">
-        <div class="single-slider slider-bg" data-background="./images/slider_bg01.jpg" style="background-image: url('././images/slider_bg01.jpg');">
+        <div class="single-slider slider-bg" data-background="images/ben-white-PAiVzSmYy-c-unsplash.jpg" style="background-image: url('images/ben-white-PAiVzSmYy-c-unsplash.jpg');">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -32,33 +37,33 @@ include('./include/navbar.php');
 
         <!-- Image with Text under navbar -->
         <section class="cta-area cta-bg">
-    <div class="container">
-        <div class="row align-items-center justify-content-center">
-            <div class="col-xl-6 col-lg-8 d-flex align-items-center">
-                <div class="video-container position-relative">
-                    <!-- Add SVG animation here -->
-                    <div class="svg-animation"></div>
-                    <video id="myVideo" width="560" height="315" autoplay muted loop>
-                        <source src="./Midea/Doing the most good with your charitable donations.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <img id="gifOverlay" src="./Midea/Animation%20-%201711545213723(1).gif" class="gif-overlay" alt="GIF Overlay">
-                    <div id="playButton" class="play-button"></div>
-                </div>
-                <div class="col-xl-6 col-lg-10 cta-content ms-4">
-                    <div class="section-title mb-18">
-                        <span class="sub-title">-- Call To Action</span>
-                        <h4 class="title">We Help at Every Step from Concept.</h4>
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-xl-6 col-lg-8 d-flex align-items-center">
+                    <div class="video-container position-relative">
+                        <!-- Add SVG animation here -->
+                        <div class="svg-animation"></div>
+                        <video id="myVideo" width="560" height="315" autoplay muted loop>
+                            <source src="./Midea/Doing the most good with your charitable donations.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <img id="gifOverlay" src="./Midea/Animation%20-%201711545213723(1).gif" class="gif-overlay" alt="GIF Overlay">
+                        <div id="playButton" class="play-button"></div>
                     </div>
-                    <ul class="cta-list">
-                        <li>Raise funds with a crowdfunding campaign</li>
-                        <li>Extend your campaign with InDemand</li>
-                    </ul>
+                    <div class="col-xl-6 col-lg-10 cta-content ms-4">
+                        <div class="section-title mb-18">
+                            <span class="sub-title">-- Call To Action</span>
+                            <h4 class="title">We Help at Every Step from Concept.</h4>
+                        </div>
+                        <ul class="cta-list">
+                            <li>Raise funds with a crowdfunding campaign</li>
+                            <li>Extend your campaign with InDemand</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+        </section>
 
 
             
@@ -271,6 +276,11 @@ include('./include/navbar.php');
             <!-- project-area-end -->
 
             
+
+
+
+
+            
             <!-- counter-area -->
             <section class="counter-area">
                 <div class="container">
@@ -336,7 +346,7 @@ include('./include/navbar.php');
                         <div class="col-xl-6 col-lg-10">
                             <div class="cta-content">
                                 <div class="section-title mb-25">
-                                    <span class="sub-title">-- Call To Action</span>
+                                    <span class="sub-title">Life-Mac Africa</span>
                                     <h4 class="title">We are Life-Mac Africa Charity Foundation</h4>
                                 </div>
                                 <p>At LIFE-MAC Africa, we foster an inclusive culture by embracing diversity and supporting employees from diverse backgrounds. Through our comprehensive initiatives aligned with the UN Global Goals, we provide opportunities for all to contribute and thrive, regardless of background. Together, we work towards driving positive societal change and creating a brighter, more inclusive future for all.</p>
@@ -351,256 +361,119 @@ include('./include/navbar.php');
             </section>
             <!-- cta-area-end -->
 
-            <!-- testimonial-area -->
-            <section class="testimonial-area gray-bg pt-100 pb-100">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-6 col-lg-5">
-                            <div class="section-title title-style-two mb-50">
-                                <span class="sub-title">-- Testimonials</span>
-                                <h2 class="title">Happy Children</h2>
+
+
+
+
+
+          <!-- testimonial-area -->
+<section class="testimonial-area gray-bg pt-100 pb-100">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-xl-6 col-lg-5">
+                <div class="section-title title-style-two mb-50">
+                    <span class="sub-title">Life-Mac Africa</span>
+                    <h2 class="title">Happy Children</h2>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-7">
+                <div class="section-text mb-50">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Card one -->
+        <div class="row testimonial-active slick-initialized slick-slider slick-dotted">
+            <div class="slick-list draggable">
+                <div class="slick-track" style="opacity: 1; width: 1200px; transform: translate3d(0px, 0px, 0px);">
+                    <div class="col-lg-4 slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 400px;" tabindex="0" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00">
+                        <div class="testimonial-item">
+                            <div class="testimonial-content">
+                                <p>When you think about collecting customer feedback, it's easy to get overwhelmed by the sheer volume of possibilities. With so many more customers — and so many ways to connect with their feedback — it's hard to know to where to start.</p>
                             </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-7">
-                            <div class="section-text mb-50">
-                                <p>Lorem ipsum dolor sit amet, 
-consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
- et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-exercitation ullamco laboris nisi ut aliquip.</p>
+                            <div class="testi-avatar-wrap">
+                                <div class="testi-avatar-info">
+                                    <div class="testi-avatar-thumb">
+                                        <img src="./images/Founder & Executive Director.jpeg" alt="">
+                                    </div>
+                                    <div class="testi-avatar-content">
+                                        <div class="content">
+                                            <h2 class="title">Courage</h2>
+                                            <p>Founder Of Life-Mac Africa</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testi-icon">
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row testimonial-active slick-initialized slick-slider slick-dotted">
-                        <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 4400px; transform: translate3d(-2000px, 0px, 0px);"><div class="col-lg-4 slick-slide slick-cloned" data-slick-index="-3" id="" aria-hidden="true" style="width: 400px;" tabindex="-1">
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>When you think about collecting 
-customer feed back, it’s easy to get overwhelmed by the sheer volume of
-                                        possibilities. With so many more
- customers — and so many ways to connect with their feedback — it’s hard
-                                        to know to
-                                        where to start.</p>
-                                </div>
-                                <div class="testi-avatar-wrap">
-                                    <div class="testi-avatar-info">
-                                        <div class="testi-avatar-thumb">
-                                            <img src="./images/Founder & Executive Director.jpeg" alt="">
-                                        </div>
-                                        <div class="testi-avatar-content">
-                                            <div class="content">
-                                                <h2 class="title">Coutrage</h2>
-                                                <p>Founder Of Life-Mac</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="testi-icon">
-                                       <i class="bi bi-star-fill"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><div class="col-lg-4 slick-slide slick-cloned" data-slick-index="-2" id="" aria-hidden="true" style="width: 400px;" tabindex="-1">
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>When you think about collecting 
-customer feed back, it’s easy to get overwhelmed by the sheer volume of
-                                        possibilities. With so many more
- customers — and so many ways to connect with their feedback — it’s hard
-                                        to know to where to start.</p>
-                                </div>
-                                <div class="testi-avatar-wrap">
-                                    <div class="testi-avatar-info">
-                                        <div class="testi-avatar-thumb">
-                                            <img src="./images/Director of Communications.jpeg" alt="">
-                                        </div>
-                                        <div class="testi-avatar-content">
-                                            <div class="content">
-                                                <h2 class="title">Pixerul L. Lulima</h2>
-                                                <p>Founder Of Lulima Ltd.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="testi-icon">
-                                       <i class="bi bi-star-fill"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><div class="col-lg-4 slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" style="width: 400px;" tabindex="-1">
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>When you think about collecting 
-customer feed back, it’s easy to get overwhelmed by the sheer volume of
-                                        possibilities. With so many more
- customers — and so many ways to connect with their feedback — it’s hard
-                                        to know to where to start.</p>
-                                </div>
-                                <div class="testi-avatar-wrap">
-                                    <div class="testi-avatar-info">
-                                        <div class="testi-avatar-thumb">
-                                            <img src="images/testimonial-avatar02.jpg" alt="">
-                                        </div>
-                                        <div class="testi-avatar-content">
-                                            <div class="content">
-                                                <h2 class="title">Miranda H. Halim</h2>
-                                                <p>Founder Of Yokoloko</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="testi-icon">
-                                       <i class="bi bi-star-fill"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><div class="col-lg-4 slick-slide" data-slick-index="0" aria-hidden="true" style="width: 400px;" tabindex="-1" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00">
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>When you think about collecting 
-customer feed back, it’s easy to get overwhelmed by the sheer volume of 
-possibilities. With so many more customers — and so many ways to connect
- with their feedback — it’s hard to know to
-                                    where to start.</p>
-                                </div>
-                                <div class="testi-avatar-wrap">
-                                    <div class="testi-avatar-info">
-                                        <div class="testi-avatar-thumb">
-                                            <img src="./images/Director of Communications.jpeg" alt="">
-                                        </div>
-                                        <div class="testi-avatar-content">
-                                            <div class="content">
-                                                <h2 class="title">Rosalina D. Wiliam</h2>
-                                                <p>Founder Of Mirax Co.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="testi-icon">
-                                       <i class="bi bi-star-fill"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><div class="col-lg-4 slick-slide" data-slick-index="1" aria-hidden="true" style="width: 400px;" tabindex="-1" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01">
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>When you think about collecting 
-customer feed back, it’s easy to get overwhelmed by the sheer volume of
-                                        possibilities. With so many more
- customers — and so many ways to connect with their feedback — it’s hard
-                                        to know to
-                                        where to start.</p>
-                                </div>
-                                <div class="testi-avatar-wrap">
-                                    <div class="testi-avatar-info">
-                                        <div class="testi-avatar-thumb">
-                                            <img src="images/testimonial-avatar02.jpg" alt="">
-                                        </div>
-                                        <div class="testi-avatar-content">
-                                            <div class="content">
-                                                <h2 class="title">Miranda H. Halim</h2>
-                                                <p>Founder Of Yokoloko</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="testi-icon">
-                                       <i class="bi bi-star-fill"></i>
-                                    </div>
-                                </div>
-                            </div>
 
-
-                        </div><div class="col-lg-4 slick-slide slick-current slick-active" data-slick-index="2" aria-hidden="false" style="width: 400px;" tabindex="0" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02">
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>When you think about collecting 
-                                    customer feed back, it’s easy to get overwhelmed by the sheer volume of
-                                                                            possibilities. With so many more
-                                    customers — and so many ways to connect with their feedback — it’s hard
-                                        to know to where to start.</p>
+                    <!-- Card two -->
+                    <div class="col-lg-4 slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 400px;" tabindex="0" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01">
+                        <div class="testimonial-item">
+                            <div class="testimonial-content">
+                                <p>When you think about collecting customer feedback, it's easy to get overwhelmed by the sheer volume of possibilities. With so many more customers — and so many ways to connect with their feedback — it's hard to know to where to start.</p>
+                            </div>
+                            <div class="testi-avatar-wrap">
+                                <div class="testi-avatar-info">
+                                    <div class="testi-avatar-thumb">
+                                        <img src="./images/Director of Communications.jpeg" alt="">
+                                    </div>
+                                    <div class="testi-avatar-content">
+                                        <div class="content">
+                                            <h2 class="title">Miranda H. Halim</h2>
+                                            <p>Founder Of Yokoloko</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="testi-avatar-wrap">
-                                    <div class="testi-avatar-info">
-                                        <div class="testi-avatar-thumb">
-                                            <img src="./images/Founder & Executive Director.jpeg" alt="">
-                                        </div>
-                                        <div class="testi-avatar-content">
-                                            <div class="content">
-                                                <h2 class="title">Courage</h2>
-                                                <p>Founder Of Life-Mac Africa</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="testi-icon">
-                                       <i class="bi bi-star-fill"></i>
-                                    </div>
+                                <div class="testi-icon">
+                                    <i class="bi bi-star-fill"></i>
                                 </div>
                             </div>
+                        </div>
+                    </div>
 
-
-                        </div><div class="col-lg-4 slick-slide slick-active" data-slick-index="3" aria-hidden="false" style="width: 400px;" tabindex="0" role="tabpanel" id="slick-slide03" aria-describedby="slick-slide-control03">
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>When you think about collecting 
-customer feed back, it’s easy to get overwhelmed by the sheer volume of
-                                        possibilities. With so many more
- customers — and so many ways to connect with their feedback — it’s hard
-                                        to know to where to start.</p>
+                    <!-- Card three -->
+                    <div class="col-lg-4 slick-slide slick-active" data-slick-index="2" aria-hidden="false" style="width: 400px;" tabindex="0" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02">
+                        <div class="testimonial-item">
+                            <div class="testimonial-content">
+                                <p>When you think about collecting customer feedback, it's easy to get overwhelmed by the sheer volume of possibilities. With so many more customers — and so many ways to connect with their feedback — it's hard to know to where to start.</p>
+                            </div>
+                            <div class="testi-avatar-wrap">
+                                <div class="testi-avatar-info">
+                                    <div class="testi-avatar-thumb">
+                                        <img src="./images/Director of Communications.jpeg" alt="">
+                                    </div>
+                                    <div class="testi-avatar-content">
+                                        <div class="content">
+                                            <h2 class="title">Life-Mac Junior</h2>
+                                            <p>Founder Of Life-Mac Africa</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="testi-avatar-wrap">
-                                    <div class="testi-avatar-info">
-                                        <div class="testi-avatar-thumb">
-                                            <img src="./images/Founder & Executive Director.jpeg" alt="">
-                                        </div>
-                                        <div class="testi-avatar-content">
-                                            <div class="content">
-                                                <h2 class="title">Life-Mac Junior</h2>
-                                                <p>Founder Of Life-Mac Africa</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="testi-icon">
-                                       <i class="bi bi-star-fill"></i>
-                                    </div>
+                                <div class="testi-icon">
+                                    <i class="bi bi-star-fill"></i>
                                 </div>
                             </div>
-     
-                        </div><div class="col-lg-4 slick-slide slick-cloned" data-slick-index="6" id="" aria-hidden="true" style="width: 400px;" tabindex="-1">
-                            <div class="testimonial-item">
-                                <div class="testimonial-content">
-                                    <p>When you think about collecting 
-customer feed back, it’s easy to get overwhelmed by the sheer volume of
-                                        possibilities. With so many more
- customers — and so many ways to connect with their feedback — it’s hard
-                                        to know to where to start.</p>
-                                </div>
-                                
-                                <div class="testi-avatar-wrap">
-                                    <div class="testi-avatar-info">
-                                        <div class="testi-avatar-thumb">
-                                            <img src="./images/Director of Communications.jpeg" alt="">
-                                        </div>
-                                        <div class="testi-avatar-content">
-                                            <div class="content">
-                                                <h2 class="title">Junior</h2>
-                                                <p>Communication Leader</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="testi-icon">
-                                       <i class="bi bi-star-fill"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                                </div>
-                            </div>
-                        </div></div></div>
+                        </div>
+                    </div>
                 </div>
-            </section>
-            <!-- testimonial-area-end -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- testimonial-area-end -->
          
 
-        </main>
-        <!-- main-area-end -->
+</main>
+<!-- main-area-end -->
 
 
        
+
+
 <?php
 include('./include/footer.php');
 ?>
