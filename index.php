@@ -378,7 +378,9 @@ include('./include/navbar.php');
             </div>
             <div class="col-xl-6 col-lg-7">
                 <div class="section-text mb-50">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                    <p>LIFE-MAC Africa is not just an organization; it's a beacon of hope and change for children in need. Our commitment to creating a sustainable and inclusive society extends to the most vulnerable among us - the children.
+
+Charity children, often coming from disadvantaged backgrounds, face numerous challenges that hinder their access to education, health care, and a safe environment. Many of these children are affected by poverty, lack of resources, and social exclusion.</p>
                 </div>
             </div>
         </div>
@@ -389,7 +391,7 @@ include('./include/navbar.php');
                     <div class="col-lg-4 slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 400px;" tabindex="0" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00">
                         <div class="testimonial-item">
                             <div class="testimonial-content">
-                                <p>When you think about collecting customer feedback, it's easy to get overwhelmed by the sheer volume of possibilities. With so many more customers — and so many ways to connect with their feedback — it's hard to know to where to start.</p>
+                                <p>Thanks to LIFE-MAC Africa, my child has access to quality education and healthcare that we couldn't afford otherwise. They not only focus on academics but also teach life skills that are essential for my child's future. I am grateful for their commitment to helping children from disadvantaged backgrounds like ours</p>
                             </div>
                             <div class="testi-avatar-wrap">
                                 <div class="testi-avatar-info">
@@ -414,7 +416,7 @@ include('./include/navbar.php');
                     <div class="col-lg-4 slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 400px;" tabindex="0" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01">
                         <div class="testimonial-item">
                             <div class="testimonial-content">
-                                <p>When you think about collecting customer feedback, it's easy to get overwhelmed by the sheer volume of possibilities. With so many more customers — and so many ways to connect with their feedback — it's hard to know to where to start.</p>
+                                <p>LIFE-MAC Africa's technology training program has been a game-changer for my daughter. She has learned valuable digital skills that are empowering her to pursue opportunities in the digital economy. Their focus on gender empowerment and social inclusion ensures that every child gets an equal chance to succeed.</p>
                             </div>
                             <div class="testi-avatar-wrap">
                                 <div class="testi-avatar-info">
@@ -439,7 +441,7 @@ include('./include/navbar.php');
                     <div class="col-lg-4 slick-slide slick-active" data-slick-index="2" aria-hidden="false" style="width: 400px;" tabindex="0" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02">
                         <div class="testimonial-item">
                             <div class="testimonial-content">
-                                <p>When you think about collecting customer feedback, it's easy to get overwhelmed by the sheer volume of possibilities. With so many more customers — and so many ways to connect with their feedback — it's hard to know to where to start.</p>
+                                <p>The impact of LIFE-MAC Africa's work goes beyond just charity; they are building sustainable communities for our children's future. Their initiatives in Climate and Agriculture, Rural Development, and Governance are creating a better environment for our children to grow up in. I am proud to be part of such a visionary community.</p>
                             </div>
                             <div class="testi-avatar-wrap">
                                 <div class="testi-avatar-info">

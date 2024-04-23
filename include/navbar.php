@@ -6,18 +6,13 @@ include('./include/header.php');
 
 
 <!-- Preloader area start -->
-<div id="loading">
-    <div id="loading-center">
-        <div id="loading-center-absolute">
-            <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
-            <img src="./images/cropped-Group-441-1.png" alt="Loading..." class="loading-image">
-            </div>
-        </div>
-    </div>
+
+<div id="loading" class="snooker-loader">
+    <div class="ball"></div>
+    <div class="ball"></div>
+    <div class="ball"></div>
 </div>
     <!-- Preloader area end -->
-
-
 
 		<!-- Scroll-top -->
         <button class="scroll-top scroll-to-target open" data-target="html">
@@ -49,18 +44,20 @@ include('./include/header.php');
             </div>
            
 
+
+            
                <!-- Menu baar -->
             <div id="sticky-header" class="main-header menu-area sticky-menu">
                 <div class="container custom-container">
                     <div class="row">
                         <div class="col-12">
-                            <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
+                            <div class="mobile-nav-toggler"><i class="bi bi-list"></i></div>
                             <div class="menu-wrap">
                     <nav class="menu-nav show">
                    <div class="logo d-none">
                 <h1 style="color:white;">LIFE-MAC AFRICA<span>.</span></h1>
             </div>
-
+                            
                                     <!-- Home start here -->
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">
