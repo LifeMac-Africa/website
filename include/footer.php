@@ -1,3 +1,9 @@
+<?php
+include('./include/header.php');
+
+?>
+
+ 
  <!-- footer-area -->
  <footer>
             <div class="footer-area">
@@ -11,64 +17,88 @@
                                         <h1 style="color:white;">LIFE-MAC AFRICA</h1>
                                     </div>
                                     
-                                    <div class="footer-contact-list mb-30">
+                                    <div class="footer-contact-list mb-10">
                                         <ul>
+                                            <!-- Office Address -->
                                             <li>
                                                 <div class="icon">
-                                                    <img src="images/f_contact_icon01.png" alt="">
+                                                    <img src="images/f_contact_icon03.png" alt="">
                                                 </div>
                                                 <div class="content">
-                                                    <span>Phone Number</span>
-                                                    <a href="tel:0123456789">+233 123456789</a>
+                                                    <span>Office Address</span>
+                                                    <a href="#">First Floor, Tigoeson Plaza, Ho Technical University Junction, Ho, Ghana</a>
                                                 </div>
                                             </li>
+                                            <!-- End Office Address -->
+
+
+                                            <!-- GPS Address -->
+                                            <li>
+                                                <div class="icon">
+                                                    <img src="images/f_contact_icon03.png" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <span>GPS Address</span>
+                                                    <a href="#">VH: 0044-0884</a>
+                                                </div>
+                                            </li>
+                                            <!-- End GPS Address -->
+
+
+                                            <!-- Postal Address -->
+                                            <li>
+                                                <div class="icon">
+                                                    <img src="images/f_contact_icon03.png" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <span>Postal Address</span>
+                                                    <a href="#">P. O. Box HP 591, Ho - Volta Region, Ghana</a>
+                                                </div>
+                                            </li>
+                                            <!-- End Postal Address -->
+
+
+                                            <!-- Email -->
+                                             
                                             <li>
                                                 <div class="icon">
                                                     <img src="images/f_contact_icon02.png" alt="">
                                                 </div>
                                                 <div class="content">
                                                     <span>Email Address</span>
-                                                    <a href="mailto:info@webmail.com">Lifemac-Africa@gmail.com</a>
+                                                    <a href="mailto:info@webmail.com">lifemacnetworkfoundation@gmail.com || info@lifemac.org</a>
                                                 </div>
                                             </li>
+                                            <!-- End Email -->
+
+                                            <!-- Phone number  -->
                                             <li>
                                                 <div class="icon">
-                                                    <img src="images/f_contact_icon03.png" alt="">
+                                                    <img src="images/f_contact_icon01.png" alt="">
                                                 </div>
                                                 <div class="content">
-                                                    <span>Ho<br></span>
+                                                    <span>Phone Number / WhatsApp</span>
+                                                    <a href="tel:0123456789">+233247500659</a>
                                                 </div>
                                             </li>
+                                            <!-- End phone Number  -->
+
                                         </ul>
                                     </div>
+                                    
+                                  
+                                    
                                     <div class="footer-social">
                                         <ul>
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                            <li><a href="https://www.facebook.com/LifeMacAfrica"><i class="bi bi-facebook"></i></a></li>
+                                            <li><a href="https://twitter.com/LifeMacAfrica"><i class="bi bi-twitter-x"></i></a></li>
+                                            <li><a href="https://www.instagram.com/lifemacafrica/"><i class="bi bi-instagram"></i></a></li>
+                                            <li><a href="#"><i class="bi bi-youtube"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-7">
-                                <div class="footer-widget wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                                    <h4 class="fw-title">Project<span>.</span></h4>
-                                    <div class="footer-link">
-                                        <ul>
-                                            <li><a href="#"></a>Lifemac-Africa</li>
-                                            <li><a href="#"></a>Lifemac-Africa</li>
-                                            <li><a href="#"></a>Lifemac-Africa</li>
-                                            <li><a href="#"></a>Lifemac-Africa</li>
-                                            <li><a href="#"></a>Lifemac-Africa</li>
-                                            <li><a href="#"></a>Lifemac-Africa</li>
-                                            <li><a href="#"></a>Lifemac-Africa</li>
-                                            <li><a href="#"></a>Lifemac-Africa</li>
-                                            <li><a href="#"></a>Lifemac-Africa</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div class="col-lg-4 col-md-6">
                                 <div class="footer-widget wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
                                     <h4 class="fw-title">News Feeds<span>.</span></h4>
@@ -79,7 +109,7 @@
                                                     <a href="#"><img src="images/f_blog_img01.jpg" alt=""></a>
                                                 </div>
                                                 <div class="content">
-                                                    <span><i class="fas fa-calendar-alt"></i>23rd January 2022</span>
+                                                    <span><i class="bi bi-calendar-month"></i>23rd January 2022</span>
                                                     <h2 class="title"><a href="#">Honest and Clear Presentation in Projects</a></h2>
                                                 </div>
                                             </li>
@@ -88,7 +118,7 @@
                                                     <a href="#"><img src="images/f_blog_img02.jpg" alt=""></a>
                                                 </div>
                                                 <div class="content">
-                                                    <span><i class="fas fa-calendar-alt"></i>23rd June 2023</span>
+                                                    <span><i class="bi bi-calendar-month"></i>23rd June 2023</span>
                                                     <h2 class="title"><a href="#">Simply popular belief tradition contrary lorem</a></h2>
                                                 </div>
                                             </li>
@@ -97,7 +127,7 @@
                                                     <a href="#"><img src="images/f_blog_img03.jpg" alt=""></a>
                                                 </div>
                                                 <div class="content">
-                                                    <span><i class="fas fa-calendar-alt"></i>23rd June 2024</span>
+                                                    <span><i class="bi bi-calendar-month"></i>23rd June 2024</span>
                                                     <h2 class="title"><a href="#">Popular contrary to traditional lorem ipsum</a></h2>
                                                 </div>
                                             </li>

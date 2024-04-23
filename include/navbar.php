@@ -1,19 +1,27 @@
+<?php
+include('./include/header.php');
+?>
 
-          <!-- Preloader area start -->
-          <div id="loading" style="display: none;">
-        <div id="loading-center">
-            <div id="loading-center-absolute">
-                <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
-                    <img class="loading-logo" src="./stylesSheet/preloader.svg" alt="icon">
-                </div>
+
+
+
+<!-- Preloader area start -->
+<div id="loading">
+    <div id="loading-center">
+        <div id="loading-center-absolute">
+            <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
+            <img src="./images/cropped-Group-441-1.png" alt="Loading..." class="loading-image">
             </div>
         </div>
     </div>
+</div>
     <!-- Preloader area end -->
+
+
 
 		<!-- Scroll-top -->
         <button class="scroll-top scroll-to-target open" data-target="html">
-            <i class="fas fa-angle-up"></i>
+        <i class="bi bi-arrow-up-circle"></i>
         </button>
         <!-- Scroll-top-end-->
 
@@ -57,56 +65,119 @@
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">
                                             <li class="active dropdown"><a href="./index.php">Home</a>
-                                                <ul class="submenu">
-                                                    <li class="active"><a href="#">Home One</a></li>
-                                                    <li><a href="#">Home Two</a></li>
-                                                    <li><a href="#">Home Three</a></li>
-                                                </ul>
+                                              
                                             <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div></li>
                                         <!-- Home Ends here -->
 
-
-                                                <!-- About start here -->
-                                            <li><a href="./about.php">About</a></li>
+                                           <!-- About start here -->
+                                           <li><a href="./about.php">About</a></li>
                                                 <!-- About Ends Here -->
+
+
+                                        <!-- Areas of Focus -->
+                                        <li><a href="#">Areas of Focus </a>
+                                        <ul class="submenu">
+
+                                                <li><a href="#">Education AID</a>
+                                                   <ul class="submenu">
+                                                   <li><a href="#">Paradigm Shift </a></li>
+                                                    <li><a href="#">Ace Kaizen</a></li>
+                                                    <li><a href="#">After Class </a></li>
+                                                   </ul>
+
+                                                    </li>
+                                                    <li><a href="#">Technology</a>
+                                                        <ul class="submenu">
+                                                            <li><a href="#">Rural Digital </a></li>
+                                                            <li><a href="#">Digital Exchange</a></li>
+                                                        </ul>
+                                                    </li>
+
+
+                                                    <li><a href="#">Agriculture</a>
+                                                    <ul class="submenu">
+                                                    <li><a href="#">Family Farms</a></li>
+                                                    <li><a href="#">Farm Parks</a></li>
+                                                    <li><a href="#">Wisdom’s Idea </a></li>
+                                                    
+                                                    </ul>
+                                                    </li>
+
+
+                                                    <li><a href="#">Decent Work</a>
+                                                    <ul class="submenu">
+                                                    <li><a href="#">Expert Panel</a></li>
+                                                    <li><a href="#">Workplace Safety</a></li>
+                                                    <li><a href="#">Economic Empowerment </a></li>
+                                                    </ul>
+                                                    </li>
+
+                                                    <li><a href="#">GESI</a>
+                                                    <ul class="submenu">
+                                                    <li><a href="#">+ #Nyornuvi </a></li>
+                                                    <li><a href="#">+ Female stewardship  </a></li>
+                                                    </ul>
+                                                    </li>
+                                                    <li><a href="#">Partner Projects</a></li>
+                                                </ul>
                                     
+                                        
+                                    </li>
+                                        
+                                             <!-- Ends Areas of Focus -->
 
                                                 <!-- Volunteer Team -->
-                                            <li class="dropdown"><a href="./volunteer.php">Volunteer</a>
+                                            <li class="dropdown">
+                                                <a href="#">Activities</a>
                                                 <ul class="submenu">
-                                                    <li><a href="#">Team 1</a></li>
-                                                    <li><a href="#">Team 2</a></li>
-                                                    <li><a href="#">Team 2</a></li>
-                                                    <li><a href="#">Team 2</a></li>
+                                                    <li><a href="#">Research</a></li>
+                                                    <li><a href="#">Consulting</a></li>
+                                                    <li><a href="#">Advocacy</a></li>
+                                                    <li><a href="#">Project Management</a></li>
                                                 </ul>
+                                            </li>
                                                 <!-- Volunteer Ends Here -->
                                           
-                                  
+                                                
                                            <!-- News Start Here -->
-                                            <li class="dropdown"><a href="./newsletter.php">News</a>
-                                                <ul class="submenu">
-                                                    <li><a href="./blog.php">Our Blog</a></li>
-                                                    <li><a href="#">Blog Details</a></li>
-                                                </ul>
+                                            <li class="dropdown">
+                                                <a href="#">Impact Stories</a>
+                                            </li>
 
                                                 <!-- News ENds Here -->
+                                        
 
-                                    <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div></li>
-                                        <li><a href="./contact.php">contacts</a></li>
-                                        </ul>
-                                    </div>
-                                
-                                </a>
-                            </div>
-                                </nav>
-                                
-                            </div>
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
+                                                <li class="dropdown">
+                                                    <a href="#">Join Us</a>
+                                                <ul class="submenu">
+                                                    <li><a href="./blog.php">Volunteer</a>
+                                                    <ul class="submenu">
+                                                    <li><a href="./blog.php">Local</a></li>
+                                                    <li><a href="#">International </a></li>
+                                                    </ul>
+                                                </li>
+
+                                                    <li>
+                                                        <a href="#">Mentor</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#">Partner</a>
+                                                    </li>
+                                                </ul>
+
+
+                                    <div class="dropdown-btn"><span class="fas fa-angle-down"></span>   </div></li>
+                                        <li>
+                                            <a href="./contact.php">contacts</a>
+                                        </li>
+                                     
+
+                                        <li><a href="#">Publications</a></li>
+
+                                        <li><a href="#">Donate</a></li>
+
         </header>
         <!-- header-area-end -->
-
-      
+        
+        <script src="./js/video.js"></script>

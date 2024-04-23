@@ -7,7 +7,7 @@ include('./include/navbar.php');
         <!-- Image with Text under navbar -->
         <section class="slider-area">
     <div class="slider-active">
-        <div class="single-slider slider-bg" data-background="images/slider_bg01.jpg" style="background-image: url('images/blog_img01.jpg');">
+        <div class="single-slider slider-bg" data-background="images/charbg.jpg" style="background-image: url('images/charbg.jpg');">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -15,7 +15,7 @@ include('./include/navbar.php');
                             <h6>Raise money for the poor and needy</h6>
                             <h2>Empower a child with your donation</h2>
                             <div class="slider-btn">
-                                <a href="#" class="btn black-btn">Donate<i class="fal fa-heart"></i></a>
+                                <a href="#" class="btn black-btn">Donate<i class="bi bi-arrow-through-heart-fill "></i></a>
                             </div>
                         </div>
                     </div>
@@ -32,34 +32,33 @@ include('./include/navbar.php');
 
 
                 <span></span>
-
-<!-- newsletter-area -->
-<section class="newsletter-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="newsletter-wrap">
-                                <div class="newsletter-content">
-                                    <div class="section-title">
-                                        <span class="sub-title">-- Newsletter</span>
-                                        <h2 class="title" style="font-size:30px;">Subscribe to Lifemac-Africa</h2>
-                                    </div>
-                                </div>
-                                <div class="newsletter-form">
-                                    <form action="#">
-                                        <input type="text" placeholder="Enter email address">
-                                        <button type="submit"><i class="far fa-envelope"></i>Subscribe to Lifemac-Africa Now</button>
-                                    </form>
-                                </div>
-                            </div>
+                <section class="newsletter-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="newsletter-wrap">
+                    <div class="newsletter-content">
+                        <div class="section-title">
+                            <span class="sub-title">-- Newsletter</span>
+                            <h2 class="title" style="font-size:30px;">Subscribe to Lifemac-Africa</h2>
                         </div>
                     </div>
+                    <div class="newsletter-form">
+                        <form action="#" class="subscribe-form">
+                            <label for="email">Enter your email address:</label>
+                            <input type="email" id="email" name="email" placeholder="Your email address" required>
+                            <button type="submit" class="subscribe-btn"><span class="icon"><i class="far fa-envelope"></i></span>Subscribe Now</button>
+                        </form>
+                    </div>
                 </div>
-            </section>
-            <!-- newsletter-area-end -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- newsletter-area-end -->
 
-
-
+<!-- Add some space below the newsletter section -->
+<div style="height: 200px;"></div>
      
 <?php
 include('./include/footer.php');
