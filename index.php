@@ -35,6 +35,48 @@ include('./include/navbar.php');
     </div>
 </section>
 
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="category-item">
+                <img src="./images/dart-mission-goal-success-svgrepo-com.svg" class="card-img-top" alt="Mission Image">
+                <div class="card-body">
+                    <h5 class="card-title">Mission</h5>
+                    <p class="card-text">Empowering communities through diverse initiatives for sustainable development.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="category-item">
+                <img src="./images/vision-svgrepo-com(1).svg" class="card-img-top" alt="Vision Image">
+                <div class="card-body">
+                    <h5 class="card-title">Vision</h5>
+                    <p class="card-text">Fostering futures where our collective efforts drive global well-being and prosperity.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="category-item">
+                <img src="./images/value-proposition-offer-value-submit-a-proposal-offer-a-benefit-svgrepo-com.svg" class="card-img-top" alt="Core Value Image">
+                <div class="card-body">
+                    <h5 class="card-title">Core Value</h5>
+                    <p class="card-text">Our identity, LIFE-MAC, is an acronym coined from the initial letters of our core values.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
         <!-- Image with Text under navbar -->
         <section class="cta-area cta-bg">
         <div class="container">
