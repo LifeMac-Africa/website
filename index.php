@@ -17,15 +17,15 @@ include('./include/navbar.php');
         <!-- Image with Text under navbar -->
     <section class="slider-area">
     <div class="slider-active">
-        <div class="single-slider slider-bg" data-background="images/ben-white-PAiVzSmYy-c-unsplash.jpg" style="background-image: url('images/ben-white-PAiVzSmYy-c-unsplash.jpg');">
+        <div class="single-slider slider-bg" data-background="images/ben-white-PAiVzSmYy-c-unsplash.jpg" >
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="slider-content text-center">
-                            <h6>Raise money for the poor and needy</h6>
-                            <h2>Empower a child with your donation</h2>
+                        <h2>Making a Difference, One Step at a Time</h2>
+                        <h6>Join our mission to create a better world for all.</h6>
                             <div class="slider-btn">
-                                <a href="#" class="btn black-btn">Donate<i class="bi bi-arrow-through-heart-fill"></i></a>
+                                <a href="./donation.php" class="btn black-btn">Donate<i class="bi bi-arrow-through-heart-fill"></i></a>
                             </div>
                         </div>
                     </div>
@@ -52,13 +52,10 @@ include('./include/navbar.php');
                     </div>
                     <div class="col-xl-6 col-lg-10 cta-content ms-4">
                         <div class="section-title mb-18">
-                            <span class="sub-title">-- Call To Action</span>
+                            <span class="sub-title">Life-mac Africa</span>
                             <h4 class="title">We Help at Every Step from Concept.</h4>
                         </div>
-                        <ul class="cta-list">
-                            <li>Raise funds with a crowdfunding campaign</li>
-                            <li>Extend your campaign with InDemand</li>
-                        </ul>
+                       
                     </div>
                 </div>
             </div>

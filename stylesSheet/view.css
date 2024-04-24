@@ -127,6 +127,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 9;
 }
 
 .ball {
@@ -136,10 +137,11 @@
   border-radius: 50%;
   margin: 0 10px;
   animation: moveBall 2s linear infinite;
+  z-index: 9;
 }
 
 .ball:nth-child(2) {
-  animation-delay: -1s; /* Delay the animation for the second ball */
+  animation-delay: -2s; 
 }
 
 @keyframes moveBall {
@@ -153,8 +155,15 @@
     transform: translateX(-50px);
   }
 }
+body.loading-background {
+  background: linear-gradient(to bottom right, #001d23, #3a4c587e);
+}
 
 /* End Loader style */
+
+
+
+
 
 /* Footer icons  */
 .icon img {
@@ -166,11 +175,280 @@
 
 
 
+  /* Donation style  */
+
+  .containern {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #001d23;
+    margin-bottom: 10px;
+  }
+
+#offlineLabel {
+  color: white;
+  margin-left: 10px; 
+}
+
+#creditCardLabel {
+  color: white;
+  margin-right: 10px; 
+}
+
+
+  /* Donners Info */
+  .donners-info {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .donners-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .donner-item {
+    margin: 5px;
+  }
+  
+  .donner-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .donner-number {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  /* Donation Form */
+  
+.form-check-label[for="inlineRadio1"] {
+color: white;
+}
+
+.subtitle{
+color:white;
+}
+.donation-form {
+color: white; 
+padding: 20px; 
+border-radius: 8px; 
+}
+
+.personal-info h4{
+color:white;
+}
+
+.payment-method-wrp h4{
+color:white;
+}
+
+
+.credit-card-icon {
+width: 30px;
+margin-right: 10px;
+}
+
+.amount-info,
+.payment-method-wrp,
+.personal-info {
+margin-bottom: 20px;
+}
+
+.form-check-input {
+margin-right: 10px;
+}
+
+.btn-wrp {
+margin-top: 20px;
+}
+
+
+  .donation-form {
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .amount-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+/* Default style for donate amounts */
+.donate-amount {
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Hover effect */
+.donate-amount:hover {
+  background-color: #e0e0e0;
+}
+
+/* Selected style */
+.donate-amount.selected,
+.donate-amount.selected:hover {
+  background-color: #e0e0e0; /* Same color as hover */
+}
+
+  .donate-custom-amount input {
+    width: 80px;
+    padding: 5px;
+    border: none;
+    text-align: center;
+  }
+  
+  .payment-method-wrp h4,
+  .personal-info h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .payment-method {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .payment-type {
+    margin-right: 20px;
+  }
+  
+  .form-check-inline {
+    margin-right: 10px;
+  }
+  
+  .personal-info .row {
+    margin: 0 -10px;
+  }
+  
+  .personal-info .col-md-6,
+  .personal-info .col-md-12 {
+    padding: 0 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea.form-control {
+    height: 80px;
+  }
+  
+  .btn-wrp {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn-theme {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    transition: background-color 0.3s;
+  
+  }
+  
+  .btn-gradient {
+    background: linear-gradient(to right, #ff6e7f, #bfe9ff);
+ 
+  }
+  
+  .btn-border {
+    border: 1px solid #fff;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 767px) {
+    .containern {
+      padding: 10px;
+    }
+  
+    .donner-item img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .donation-form {
+      padding: 15px;
+    }
+  
+    .amount-info {
+      flex-wrap: wrap;
+    }
+  
+    .donate-amount {
+      margin-bottom: 10px;
+    }
+  
+    .payment-method {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .payment-type {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .btn-wrp {
+      flex-direction: column;
+    }
+  
+    .btn-theme {
+      margin-bottom: 10px;
+    }
+  }
+
+
+
 
 
 /* Dropdown css */
-
-
 /* Style for the main menu items */
 .navbar-wrap .navigation > li {
   position: relative; 
@@ -216,153 +494,191 @@
 
 
 
-/* About us Card */
-.container2 {
-  margin: 10px;
-  display: flex;
-} 
 
-.profile-wrapper {
-  width: 22rem;
-  height: 28rem;
-  position: relative;
-  margin: 20px;
-}
 
-.profile {
+
+
+/* About us Card Lifemac leaders style  */
+
+/* -------------------------------- */
+
+.containerb {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  position: relative;
-  overflow: hidden;
-  width: 22rem;
-  height: 28rem;
-  border-radius: 1rem;
-  overflow: hidden;
-  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
-  cursor: pointer;
-  transition: 0.5s;
+  height: 100vh;
+  background-color: #f5f5f5;
 }
 
-.profile .profile-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  background-color: var(--background);
-  transition: .5s;
+.image-container {
+  flex: 1;
+  padding: 20px;
 }
 
-.profile-image img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+.image-container img {
+  max-width: 100%;
+  height: auto;
 }
 
-.profile:hover img {
-  opacity: 0.4;
-  transition: .5s;
+.text-container {
+  flex: 1;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.profile:hover .profile-image {
-  transform: translateY(-104px);
-  transition: all .9s;
+.text-container h2 {
+  color: #009e74;
+  margin-top: 0;
 }
 
-.profile:hover .profile-bio {
-  opacity: 0.9; 
+.text-container p {
+  color: #666;
 }
 
-.social-icons {
-  position: absolute;
-  display: flex;
-  gap: 0.75rem;
-  z-index: 3;
-  bottom: 10.125rem;
-}
-
-.social-icons li {
-  list-style: none;
-}
-
-.social-icons li a {
-  position: relative;
-  display: block;
-  display: grid;
-  place-items: center;
-  background: #fff;
-  font-size: 23px;
-  font-weight: bold;
-  width: 2.5rem;
-  height: 2.5rem;
-  border: 1px solid #CDCDCD;
-  border-radius: 0.5rem;
-  transition: .2s;
-  transform: translateY(2rem);
-  opacity: 0;
-}
-
-.social-icons li a:hover {
-  background: var(--background);
-  transition: .2s;
-}
-
-.social-icons li a svg {
-  color: var(--background);
-  transition: .2s;
-}
-
-.social-icons li a:hover svg {
+.text-container button {
+  background-color: #009e74;
   color: white;
-  transition: 0.8s;
-  transform: rotateY(360deg);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
 }
 
-.profile:hover .social-icons li a {
-  opacity: 1; 
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+  }
+
+  .image-container {
+    display: none;
+  }
+
+  .text-container {
+    flex: none;
+    width: 100%;
+  }
 }
 
-.profile:hover li:nth-child(1) a {
-  transition-delay: 0.1s;
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    justify-content: center; 
+  }
+
+  .image-container {
+    display: none; 
+  }
+
+  .text-container {
+    flex: none;
+    width: 100%;
+  }
 }
 
-.profile:hover li:nth-child(2) a {
-  transition-delay: 0.2s;
-}
-
-.profile:hover li:nth-child(3) a {
-  transition-delay: 0.3s;
-}
-
-.profile:hover li:nth-child(4) a {
-  transition-delay: 0.4s;
-}
-
-.profile-name {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 4;
-  width: 100%;
-  height: 7rem;
-  padding: 0.75rem 0.875rem;
-  z-index: 1;
-  color: #333;
-  background-color: #fff;
+.service-text {
   text-align: left;
 }
 
-.profile:hover .profile-name {
-  background-color: #fff;
+.countarea {
+  height: 20vh;
+  background-color: #001d23;
+  margin: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.profile-name h2 {
-  margin-bottom: 0.5rem;
+.counter-img img {
+  display: block;
+  margin: 10PX;
+}
+
+/* Add space and bold the counter number and p */
+.single-counter .counter,
+.single-counter p {
+  margin-top: 10px; 
+  font-weight: bold; 
+  color :white
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .countarea {
+      height: auto;
+      padding: 10px;
+      display: flex;
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: center; 
+  }
+
+  .single-counter .counter,
+  .single-counter p {
+      margin-top: 5px;
+      font-weight: bold;
+      font-size: 0.9em;
+  }
 }
 
 
+
+
+/* Join us image */
+    /* Add space between images and text */
+    .joning-img {
+      margin-bottom: 20px; 
+  }
+  
+  /* Media query for small screens */
+  @media (max-width: 768px) {
+      .offset-xl-1 {
+          margin-top: 20px; 
+      }
+  
+      .col-xl-4 {
+          margin-top: 30px; 
+      }
+  }
+
+  
+
+  /* About us top image */
+  .slider-area {
+    padding: 50px 0;
+}
+
+.slider-height2 {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/seth-doyle-zf9_yiAekJs-unsplash.jpg'); 
+}
+
+.hero-overly {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-caption2 h2 {
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.hero-caption2 h2 img {
+    max-width: 100%;
+    height: auto;
+}
 /* End About us Card */
 
 
@@ -543,6 +859,5 @@
   .border-top {
     border-top: 1px solid #f2f2f2 !important; }
   
-  .ftco-bg-dark {
-    background: #3c312e; }
+
   
