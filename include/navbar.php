@@ -20,23 +20,22 @@ include('./include/header.php');
         </button>
         <!-- Scroll-top-end-->
 
+        
         <!-- header-area -->
         <header class="transparent-header header-style-one">
             <div class="header-top-wrap">
-                <div class="container custom-container">
+                <div class="containe custom-container">
                     <div class="row align-items-center">
                         <div class="col-lg-4 col-sm-6 d-none d-sm-block">
                             <div class="header-top-left">
                                 <ul>
                                     <li><a href="#">LIFE-MAC AFRICA<span>.</span></a></li>
-                                    
                                 </ul>
                             </div>
                         </div>
                         <div class="col-lg-4 d-none d-lg-block">
                             <div class="logo text-center">
-                            <a href="./index.php"><img style="fill: white; width: 30%;" src="./images/logo-no-background-1.svg" alt=""></a>
-
+                           
                             </div>
                         </div>
                     </div>
@@ -75,7 +74,7 @@ include('./include/header.php');
                                         <li><a href="#">Areas of Focus </a>
                                         <ul class="submenu">
 
-                                                <li><a href="#">Education AID</a>
+                                                <li><a href="#">Education Aid</a>
                                                    <ul class="submenu">
                                                    <li><a href="#">Paradigm Shift </a></li>
                                                     <li><a href="#">Ace Kaizen</a></li>
@@ -138,18 +137,18 @@ include('./include/header.php');
                                                 
                                            <!-- News Start Here -->
                                             <li class="dropdown">
-                                                <a href="#">Impact Stories</a>
+                                                <a href="./Impact Stories.php">Impact Stories</a>
                                             </li>
 
                                                 <!-- News ENds Here -->
                                         
 
                                                 <li class="dropdown">
-                                                    <a href="#">Join Us</a>
+                                                    <a href="./JoinUs.php">Join Us</a>
                                                 <ul class="submenu">
-                                                    <li><a href="./blog.php">Volunteer</a>
+                                                    <li><a href="#">Volunteer</a>
                                                     <ul class="submenu">
-                                                    <li><a href="./blog.php">Local</a></li>
+                                                    <li><a href="#">Local</a></li>
                                                     <li><a href="#">International </a></li>
                                                     </ul>
                                                 </li>
@@ -172,7 +171,7 @@ include('./include/header.php');
 
                                         <li><a href="#">Publications</a></li>
 
-                                        <li><a href="#">Donate</a></li>
+                                        <li><a href="./donation.php">Donate</a></li>
 
         </header>
         <!-- header-area-end -->

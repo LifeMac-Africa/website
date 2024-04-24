@@ -50,12 +50,51 @@ document.addEventListener("DOMContentLoaded", function () {
 // LOADER JS 
 document.addEventListener("DOMContentLoaded", function() {
     const loader = document.getElementById("loading");
+    
+    // Add loading background when the page starts loading
+    document.body.classList.add('loading-background');
+    
     window.addEventListener("load", function() {
       // Wait for 2 seconds (2000 milliseconds) before hiding the preloader
       setTimeout(function() {
         loader.style.display = "none";
+        
+        // Remove loading background when the loader finishes
+        document.body.classList.remove('loading-background');
       }, 2000);
     });
   });
+  
 
 // END LOADER JS
+
+
+
+// Automatic date 
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+
+// End Automatic date 
+
+
+
+// Donation Amount selector 
+document.addEventListener("DOMContentLoaded", function() {
+    const donateAmounts = document.querySelectorAll('.donate-amount');
+
+    donateAmounts.forEach(amount => {
+        amount.addEventListener('click', function() {
+            // Remove 'selected' class from all amounts
+            donateAmounts.forEach(a => {
+                a.classList.remove('selected');
+            });
+
+            // A 'selected' class to the clicked amount
+            this.classList.add('selected');
+
+            // Update selected amount
+            const selectedAmount = this.getAttribute('data-amount');
+            console.log("Selected amount:", selectedAmount);
+        });
+    });
+});
+//End  Donation Amount selector 

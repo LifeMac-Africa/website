@@ -12,8 +12,8 @@ include('./include/navbar.php');
                 <div class="row">
                     <div class="col-12">
                         <div class="slider-content text-center">
-                            <h6>Raise money for the poor and needy</h6>
-                            <h2>Empower a child with your donation</h2>
+                        <h2>Making a Difference, One Step at a Time</h2>
+                        <h6>Join our mission to create a better world for all.</h6>
                             <div class="slider-btn">
                                 <a href="#" class="btn black-btn">Donate<i class="bi bi-arrow-through-heart-fill "></i></a>
                             </div>
