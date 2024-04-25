@@ -1,19 +1,4 @@
 
-/* Mission card style */
-   .mission-card {
-	background-color: transparent;
-     padding: 20px;
-     border-radius: 5px;
-     text-align: center;
-     width: 20%; /* Adjusted width */
-     margin: 0 auto; /* Center the card horizontally */
-     color: black;
-     transition: color 0.3s ease;
-   }
-
-   .mission-card:hover {
-     color: orange;
-   }
 
 
 

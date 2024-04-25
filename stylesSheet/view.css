@@ -1,3 +1,30 @@
+/* Map Container Styles */
+#map-container {
+  width: 100%; 
+  height: 60vh;
+  margin-top: -50px; 
+  overflow: hidden; 
+  position: relative; 
+}
+
+/* Map Iframe Styles */
+#map-container iframe {
+  width: 100%; 
+  height: 60vh; 
+  border: 0; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+
+}
+
+/* End Map Container Styles */
+
+
+
+
+
+
 /* Mission, vision card Css  */
 .category-item {
   background-color: #f9f9f9;
@@ -15,19 +42,23 @@
   width: 40px;
   height: 60px;
   margin: 20px auto;
-  filter: brightness(0%); /* Set brightness to 0% to make the image black */
+  filter: brightness(2%); 
 }
 
 .card-title {
   font-size: 20px;
   margin-bottom: 15px;
+  color: #000;
 }
 
-.card-text {
+.card1 {
   font-size: 14px;
+  color: #000;
 }
 
 /* Mission, vision card Css  */
+
+
 
 
 
@@ -40,10 +71,11 @@
   position: absolute;
   top: 30%;
   left: 30%;
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
   object-fit: cover;
   z-index: 1;
+  cursor: pointer;
 }
 
 #myVideo {
@@ -63,103 +95,172 @@
 /* vidoe Css  */
 
 
+
+
+
 /* Contact us form Css */
 .container1 {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+form textarea {
+  height: 150px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Form styling */
+form {
+  flex: 1;
+  margin-left: 20px; 
+}
+
+/* Image styling */
+.img1 {
+  border-radius: 20px;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .container1 {
+      flex-direction: column; 
+      align-items: center; 
   }
-  
-  form h2 {
-    text-align: center;
-    margin-bottom: 20px;
+
+  form {
+      margin-left: 0; 
+      width: 100%; 
   }
-  
-  form label {
-    font-weight: bold;
+
+  .img1 {
+      width: 100%; 
   }
-  
-  form input[type="text"],
-  form input[type="email"],
-  form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: none;
-  }
-  
-  form textarea {
-    height: 150px;
-  }
-  
-  form button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  form button:hover {
-    background-color: #0056b3;
-  }
-  /* Contact us form Css */
+}
+/* End Contact us form Css */
+
+
+
+
 
 
 
   
 
 /* Loader style */
-.snooker-loader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9;
+.loader_bg {
+    position: fixed;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.ball {
-  width: 20px;
-  height: 20px;
-  background-color: rgb(11, 120, 163);
-  border-radius: 50%;
-  margin: 0 10px;
-  animation: moveBall 2s linear infinite;
-  z-index: 9;
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
 }
 
-.ball:nth-child(2) {
-  animation-delay: -2s; 
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid;
+    border-radius: 50%;
+    animation: lds-ring 1.5s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
 }
 
-@keyframes moveBall {
-  0% {
-    transform: translateX(-50px);
-  }
-  50% {
-    transform: translateX(50px);
-  }
-  100% {
-    transform: translateX(-50px);
-  }
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
 }
-body.loading-background {
-  background: linear-gradient(to bottom right, #001d23, #3a4c587e);
+
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
 }
+
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+        border-color: #fff transparent transparent transparent;
+    }
+    25% {
+        border-color: #ff4500 transparent transparent transparent; /* Orange */
+    }
+    50% {
+        border-color: #3498db transparent transparent transparent; /* Blue */
+    }
+    75% {
+        border-color: #f39c12 transparent transparent transparent; /* Yellow */
+    }
+    100% {
+        transform: rotate(360deg);
+        border-color: #fff transparent transparent transparent;
+    }
+}
+
 
 /* End Loader style */
+
 
 
 
@@ -175,8 +276,122 @@ body.loading-background {
 
 
 
-  /* Donation style  */
 
+
+
+  /* impact stories css */
+  .section {
+    padding: 40px;
+}
+
+/* Card Grid styles */
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center; 
+}
+
+/* Card styles */
+.card {
+    position: relative;
+    flex: 1;
+    width: 300px; 
+    height: 400px; 
+    overflow: hidden; 
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 1; 
+}
+
+.card:hover .card-overlay {
+    opacity: 1;
+}
+
+.card-title,
+.card-text {
+    color: white; 
+}/* Video Grid styles */
+.video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; 
+}
+
+/* Video Card styles */
+.video-card {
+    flex: 1;
+    width: 300px; 
+    height: auto;
+    text-align: center; 
+}
+
+.video-card iframe {
+    width: 100%; 
+    height: 200px; 
+}
+
+.video-title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.video-description {
+    margin-top: 5px;
+    color: #666; 
+}
+/* Media Queries for Small Screens */
+@media (max-width: 768px) {
+    .card {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .card-grid {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .video-card {
+        width: 100%; 
+    }
+
+    .video-grid {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .video-card iframe {
+        height: 150px; 
+    }
+}
+/* End imapct stories css */
+
+
+
+
+
+
+
+
+  /* Donation style  */
   .containern {
     max-width: 800px;
     margin: 0 auto;
@@ -194,7 +409,6 @@ body.loading-background {
   color: white;
   margin-right: 10px; 
 }
-
 
   /* Donners Info */
   .donners-info {
@@ -443,13 +657,15 @@ margin-top: 20px;
       margin-bottom: 10px;
     }
   }
+/* End Donation form css */
+
+
 
 
 
 
 
 /* Dropdown css */
-/* Style for the main menu items */
 .navbar-wrap .navigation > li {
   position: relative; 
 }
@@ -498,6 +714,7 @@ margin-top: 20px;
 
 
 
+
 /* About us Card Lifemac leaders style  */
 
 /* -------------------------------- */
@@ -507,7 +724,6 @@ margin-top: 20px;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f5f5f5;
 }
 
 .image-container {
@@ -525,6 +741,7 @@ margin-top: 20px;
   padding: 10px;
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
 }
 
 .text-container h2 {
@@ -590,11 +807,11 @@ margin-top: 20px;
 .countarea {
   height: 20vh;
   background-color: #001d23;
-  margin: 30px;
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .counter-img img {

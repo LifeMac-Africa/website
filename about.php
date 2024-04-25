@@ -21,29 +21,41 @@ include('./include/navbar.php');
       
 
 <div class="support-company-area section-padding">
-<div class="container">
-<div class="row align-items-center justify-content-between">
-<div class="col-xl-6 col-lg-6 col-md-10">
-<div class="support-location-img">
-<img src="./images/about.jpg.webp" alt="">
-</div>
-</div>
-<div class="col-xl-5 col-lg-6 col-md-10">
-<div class="right-caption">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            
+            <!-- Left Column -->
+            <div class="col-xl-6 col-lg-6 col-md-10">
+                <div class="support-location-img">
+                <img src="./images/1500x500.jpeg" alt="" style="margin-bottom: 20px; border-radius:20px;">
+                </div>
+            </div>
+            
+            <!-- Right Column -->
+            <div class="col-xl-5 col-lg-6 col-md-10">
+                <div class="right-caption">
+                    
+                    <!-- Section Title -->
+                    <div class="section-tittle">
+                        <h2>Who we are?</h2>
+                    </div>
+                    
+                    <!-- Support Caption -->
+                    <div class="support-caption">
+                        <p class="pera-top">
+                            At LIFE-MAC Africa, we foster an inclusive culture by embracing diversity and supporting employees from diverse backgrounds. Through our comprehensive initiatives aligned with the UN Global Goals, we provide opportunities for all to contribute and thrive, regardless of background. Together, we work towards driving positive societal change and creating a brighter, more inclusive future for all.
+                        </p>
+                        <!-- Learn More Button -->
+                        <a href="#" class="btn about-btn">Learn More</a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div><br><br>
 
-<div class="section-tittle">
-<h2>Who we are?</h2>
-</div>
-<div class="support-caption">
-<p class="pera-top">At LIFE-MAC Africa, we foster an inclusive culture by embracing diversity and supporting employees from diverse backgrounds. Through our comprehensive initiatives aligned with the UN Global Goals, we provide opportunities for all to contribute and thrive, regardless of background. Together, we work towards driving positive societal change and creating a brighter, more inclusive future for all.
-</p>
-<a href="#" class="btn about-btn">Learn More</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
 
 <div class="countarea">
     <div class="container">
@@ -100,7 +112,7 @@ include('./include/navbar.php');
             </div>
         </div>
     </div>
-</div>
+</div><br><br>
 
 
 <div class="our-services section-padding position-relative">

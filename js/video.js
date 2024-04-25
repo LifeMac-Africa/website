@@ -48,23 +48,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 // LOADER JS 
-document.addEventListener("DOMContentLoaded", function() {
-    const loader = document.getElementById("loading");
-    
-    // Add loading background when the page starts loading
-    document.body.classList.add('loading-background');
-    
-    window.addEventListener("load", function() {
-      // Wait for 2 seconds (2000 milliseconds) before hiding the preloader
-      setTimeout(function() {
-        loader.style.display = "none";
-        
-        // Remove loading background when the loader finishes
-        document.body.classList.remove('loading-background');
-      }, 2000);
-    });
-  });
-  
+document.onreadystatechange = function () {
+    if (document.readyState !== "complete") {
+        document.querySelector(".loader_bg").style.display = "flex";
+    } else {
+        document.querySelector(".loader_bg").style.display = "none";
+    }
+};
+
 
 // END LOADER JS
 

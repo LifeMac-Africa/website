@@ -65,7 +65,7 @@ include('./include/navbar.php');
 
   <div class="donation-form">
     <div class="section-title">
-      <h5 class="subtitle  mb-14">Make A Donation</h5>
+    <img src="./images/1500x500.jpeg" alt="" style="margin-bottom: 20px; border-radius:20px; width:20%; ">
       <h2 class="title text-white">Donate Now</h2>
     </div>
     <form>

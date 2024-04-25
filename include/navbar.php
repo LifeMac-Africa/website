@@ -7,11 +7,10 @@ include('./include/header.php');
 
 <!-- Preloader area start -->
 
-<div id="loading" class="snooker-loader">
-    <div class="ball"></div>
-    <div class="ball"></div>
-    <div class="ball"></div>
+<div class="loader_bg">
+    <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
 </div>
+
     <!-- Preloader area end -->
 
 		<!-- Scroll-top -->
@@ -169,7 +168,7 @@ include('./include/header.php');
                                         </li>
                                      
 
-                                        <li><a href="#">Publications</a></li>
+                                        <li><a href="./publication.php">Publications</a></li>
 
                                         <li><a href="./donation.php">Donate</a></li>
 

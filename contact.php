@@ -6,7 +6,7 @@ include('./include/navbar.php');
         <!-- Image with Text under navbar -->
         <section class="slider-area">
     <div class="slider-active">
-        <div class="single-slider slider-bg" data-background="images/slider_bg01.jpg" style="background-image: url('images/blog_img01.jpg');">
+        <div class="single-slider slider-bg" data-background="images/slider_bg01.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -26,24 +26,31 @@ include('./include/navbar.php');
 
         <!-- Image with Text under navbar -->
 
- 
-        <!-- Contact form -->
-        <div class="container1">
-        <form action="submit.php" method="POST">
-            <h2>Contact Us</h2>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Your Name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Your Email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
-        </div>
+<!-- Contact form and image -->
+<div class="container1">
+    <!-- Image on the left side -->
+    <img class="img1" src="./images/1500x500.jpeg" alt="Contact Image">
 
-
+    <!-- Form on the right side -->
+    <form action="#" method="POST">
+        <h2>Contact Us</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        
+        <button type="submit">Submit</button>
+    </form>
+</div>
 
      
+
+
+
 <?php
 include('./include/footer.php');
 ?>

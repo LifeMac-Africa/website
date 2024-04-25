@@ -1,15 +1,8 @@
 <?php
 include('./include/header.php');
 include('./include/navbar.php');
-
+include ('./config.php');      //Map API Configurations link here 
 ?>
-
-
-
-
-
-
-
 
 
         <!-- main-area -->
@@ -34,6 +27,45 @@ include('./include/navbar.php');
         </div>
     </div>
 </section>
+
+
+<!-- Mission, Vission and Core value session -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="category-item">
+                <img src="./images/dart-mission-goal-success-svgrepo-com.svg" class="card-img-top" alt="Mission Image">
+                <div class="card-body">
+                    <h5 class="card1">Mission</h5>
+                    <p class="card1">Empowering communities through diverse initiatives for sustainable development.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="category-item">
+                <img src="./images/vision-svgrepo-com(1).svg" class="card-img-top" alt="Vision Image">
+                <div class="card-body">
+                    <h5 class="card1">Vision</h5>
+                    <p class="card1">Fostering futures where our collective efforts drive global well-being and prosperity.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="category-item">
+                <img src="./images/value-proposition-offer-value-submit-a-proposal-offer-a-benefit-svgrepo-com.svg" class="card-img-top" alt="Core Value Image">
+                <div class="card-body">
+                    <h5 class="card1">Core Value</h5>
+                    <p class="card1">Our identity, LIFE-MAC, is an acronym coined from the initial letters of our core values.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Mission, Vission and Core value session -->
+
+
+
 
         <!-- Image with Text under navbar -->
         <section class="cta-area cta-bg">
@@ -370,7 +402,7 @@ include('./include/navbar.php');
             <div class="col-xl-6 col-lg-5">
                 <div class="section-title title-style-two mb-50">
                     <span class="sub-title">Life-Mac Africa</span>
-                    <h2 class="title">Happy Children</h2>
+                    <h2 class="title">Testimonial</h2>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-7">
@@ -462,9 +494,32 @@ Charity children, often coming from disadvantaged backgrounds, face numerous cha
             </div>
         </div>
     </div>
+    <br><br><br><br><br>
+     <!-- Map  -->
+     
+
+
+
+<div id="map-container">
+    <iframe
+        src="<?php echo $embedUrl; ?>"
+        width="100%"
+        height="60vh"
+        title="Map"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        style="border:0; position:absolute; top:0; left:0; width:100%; height:100%;"
+    ></iframe>
+</div>
+
+
 </section>
 <!-- testimonial-area-end -->
-         
+
+ 
+
+
 
 </main>
 <!-- main-area-end -->

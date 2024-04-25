@@ -25,72 +25,131 @@ include('./include/navbar.php');
 
 <!-- Impact Stories Section -->
 <section id="impact-stories" class="section">
-    <h1>Impact Stories</h1>
-
     <!-- Content -->
     <div class="content">
-      <p>Impact stories showcase the difference made by individuals or organizations in various communities and sectors. These stories inspire, educate, and motivate people to take action.</p>
-
-      <p>Here are some impact stories that highlight positive changes and innovations:</p>
-
-      <ul>
-        <li>Story 1: How a community garden transformed a neighborhood.</li>
-        <li>Story 2: Education initiatives improving literacy rates.</li>
-        <li>Story 3: Clean energy projects reducing carbon footprints.</li>
-      </ul>
-
-      <!-- YouTube Video -->
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-      </div>
+    <div class="support-company-area section-padding">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            
+            <!-- Left Column -->
+            <div class="col-xl-6 col-lg-6 col-md-10">
+                <div class="support-location-img">
+                    <img src="./images/1500x500.jpeg" alt="" style="margin-bottom: 20px; border-radius:20px; width:100%">
+                </div>
+            </div>
+            
+            <!-- Right Column -->
+            <div class="col-xl-5 col-lg-6 col-md-10">
+                <div class="right-caption">
+                    
+                    <!-- Section Title -->
+                    <div class="section-tittle">
+                    <h1>Impact Stories</h1>
+                    </div>
+                    
+                    <!-- Support Caption -->
+                    <div class="support-caption">
+                        <p class="pera-top">
+                        At LIFE-MAC Africa, our commitment to diversity isn't just a statement—it's a lived experience. Through our inclusive initiatives, we're empowering people from all walks of life to thrive. By aligning with the UN Global Goals, we're not just setting targets; we're creating opportunities for societal change. Together, we're shaping a future where everyone, regardless of background, has a chance to make a difference.
+                        </p>
+                        <!-- Learn More Button -->
+                        <a href="#" class="btn about-btn" style="margin-bottom: 20px;">Learn More</a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
     </div>
-  </section>
+</div>
+
+        <!-- Card Grid -->
+        <div class="card-grid">
+
+            <!-- Card 1 -->
+            <div class="card">
+            <img src="images/img_7.jpg" alt="Story 1 Image" class="card-img">
+                <div class="card-overlay">
+                    <h3 class="card-title">Story 1: Community Garden Transformation</h3>
+                    <p class="card-text">How a community garden transformed a neighborhood.</p>
+                    <a href="#" class="card-link">Read More</a>
+                    <a href="#" class="card-share">Share</a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+            <img src="images/matt-collamer-8UG90AYPDW4-unsplash.jpg" alt="Story 2 Image" class="card-img">
+                <div class="card-overlay">
+                    <h3 class="card-title">Story 2: Education Initiatives</h3>
+                    <p class="card-text">Education initiatives improving literacy rates.</p>
+                    <a href="#" class="card-link">Read More</a>
+                    <a href="#" class="card-share">Share</a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+            <img src="images/chitto-cancio-jZ3UUjdMA6M-unsplash.jpg" alt="Story 3 Image" class="card-img">
+                <div class="card-overlay">
+                    <h3 class="card-title">Story 3: Clean Energy Projects</h3>
+                    <p class="card-text">Clean energy projects reducing carbon footprints.</p>
+                    <a href="#" class="card-link">Read More</a>
+                    <a href="#" class="card-share">Share</a>
+                </div>
+            </div>
+
+         
+
+              <!-- Card 4 -->
+            <div class="card">
+            <img src="images/event-image1.jpg" alt="Story 3 Image" class="card-img">
+                <div class="card-overlay">
+                    <h3 class="card-title">Story 3: Clean Energy Projects</h3>
+                    <p class="card-text">Clean energy projects reducing carbon footprints.</p>
+                    <a href="#" class="card-link">Read More</a>
+                    <a href="#" class="card-share">Share</a>
+                </div>
+            </div>
+        </div>
+
+        
+    <!-- YouTube Video Section -->
+<section id="youtube-videos" class="section">
+    <h1>Life-Mac Africa Charity Videos</h1>
+
+    <!-- Video Grid -->
+    <div class="video-grid">
+
+        <!-- Video Card 1 -->
+        <div class="video-card">
+            <iframe src="https://www.youtube-nocookie.com/embed/mPRXhNFPgwo" frameborder="0" allowfullscreen></iframe>
+            <p class="video-text">Impact Story 1</p>
+            <p class="video-description">This is the description for Impact Story 1.</p>
+        </div>
+
+        <!-- Video Card 2 -->
+        <div class="video-card">
+            <iframe src="https://www.youtube-nocookie.com/embed/0cW0EknMvd8" frameborder="0" allowfullscreen></iframe>
+            <p class="video-text">Impact Story 2</p>
+            <p class="video-description">This is the description for Impact Story 2.</p>
+        </div>
+
+        <!-- Video Card 3 -->
+        <div class="video-card">
+            <iframe src="https://www.youtube-nocookie.com/embed/CQ1ELMHwd6w" frameborder="0" allowfullscreen></iframe>
+            <p class="video-text">Impact Story 3</p>
+            <p class="video-description">This is the description for Impact Story 3.</p>
+        </div>
+
+    </div>
+</section>
+
+    </div>
+</section>
 
 
-  <style>
 
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
-}
-
-.section {
-  padding: 20px;
-}
-
-.content {
-  margin-top: 20px;
-}
-
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-}
-
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-  </style>
 
   <?php
 include('./include/footer.php');
