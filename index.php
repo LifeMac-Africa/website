@@ -29,7 +29,9 @@ include ('./config.php');      //Map API Configurations link here
 </section>
 
 
+
 <!-- Mission, Vission and Core value session -->
+
 <div class="container">
     <div class="row">
         <div class="col-md-4">
@@ -62,7 +64,9 @@ include ('./config.php');      //Map API Configurations link here
     </div>
 </div>
 
+
 <!-- Mission, Vission and Core value session -->
+
 
 
 
