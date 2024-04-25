@@ -153,11 +153,11 @@ include('./include/header.php');
                                                 </li>
 
                                                     <li>
-                                                        <a href="#">Mentor</a>
+                                                        <a href="./Mentor.php">Mentor</a>
                                                     </li>
 
                                                     <li>
-                                                        <a href="#">Partner</a>
+                                                        <a href="./Partner.php">Partner</a>
                                                     </li>
                                                 </ul>
 

@@ -500,10 +500,6 @@ Charity children, often coming from disadvantaged backgrounds, face numerous cha
     </div>
     <br><br><br><br><br>
      <!-- Map  -->
-     
-
-
-
 <div id="map-container">
     <iframe
         src="<?php echo $embedUrl; ?>"
@@ -517,13 +513,8 @@ Charity children, often coming from disadvantaged backgrounds, face numerous cha
     ></iframe>
 </div>
 
-
 </section>
 <!-- testimonial-area-end -->
-
- 
-
-
 
 </main>
 <!-- main-area-end -->
@@ -535,7 +526,6 @@ Charity children, often coming from disadvantaged backgrounds, face numerous cha
 <?php
 include('./include/footer.php');
 ?>
-
 		<!-- JS here -->
         <script src="./js/jquery-3.6.0.min.js"></script>
         <script src="./js/bootstrap.min.js"></script>
@@ -570,57 +560,3 @@ include('./include/footer.php');
 
 
 
-
-
-            <!-- brand-area -->
-            <!-- <section class="brand-area pt-100 pb-70">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-10">
-                            <div class="section-title text-center mb-50">
-                                <div class="overlay-title">Sponsor</div>
-                                <span class="sub-title">-- Sponsors --</span>
-                                <h2 class="title">Green Sponsors</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="brand-item">
-                                <a href="#"><img src="images/partner1.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="brand-item">
-                                <a href="#"><img src="images/partner2.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="brand-item">
-                                <a href="#"><img src="images/partner3.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="brand-item">
-                                <a href="#"><img src="images/partner4.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="brand-item">
-                                <a href="#"><img src="images/partner5.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="brand-item">
-                                <a href="#"><img src="images/partner6.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="brand-item">
-                                <a href="#"><img src="images/partner7.png" alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-            <!-- brand-area-end -->
