@@ -172,7 +172,7 @@ include('./include/navbar.php');
     <div class="text-container">
       <h2>They Need Your Help</h2>
       <p>You can be the change-maker that transforms lives. Your support can provide clean water, essential medicines, <br> and quality education to those in need. Every donation, no matter how small, makes a significant impact and brings hope to communities facing challenges</p>
-      <a href="#" class="btn about-btn">Donate </a>
+      <a href="./donation.php" class="btn about-btn">Donate </a>
     </div>
   </div>
 
@@ -186,7 +186,7 @@ include('./include/navbar.php');
                         <h2>Join with Us</h2>
                     </div>
                     <p>Are you passionate about making a difference in the world? We're always looking for dedicated individuals who share our vision and values to join our team. Whether you're interested in volunteering your time, contributing your skills, or collaborating on projects, there's a place for you at Life-mac Africa!</p>
-                    <a href="#" class="btn about-btn">Join Now</a>
+                    <a href="./JoinUs.php" class="btn about-btn">Join Now</a>
                 </div>
             </div>
             <div class="offset-xl-1 col-xl-4 col-lg-4 col-md-7 col-sm-7">

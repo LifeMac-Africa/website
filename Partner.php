@@ -15,7 +15,7 @@ include('./include/navbar.php');
                         <h2>Making a Difference, One Step at a Time</h2>
                         <h6>Join our mission to create a better world for all.</h6>
                             <div class="slider-btn">
-                                <a href="#" class="btn black-btn">Donate<i class="bi bi-arrow-through-heart-fill "></i></a>
+                                <a href="./donation.php" class="btn black-btn">Donate<i class="bi bi-arrow-through-heart-fill "></i></a>
                             </div>
                         </div>
                     </div>
