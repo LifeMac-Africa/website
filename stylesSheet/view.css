@@ -31,6 +31,7 @@
   border: 1px solid #ddd;
   border-radius: 8px;
   transition: all 0.3s ease;
+  margin-top: 15px;
 }
 
 .category-item:hover {
@@ -398,6 +399,7 @@ form {
     padding: 20px;
     background-color: #001d23;
     margin-bottom: 10px;
+    margin-top: 15px;
   }
 
 #offlineLabel {

@@ -2,22 +2,14 @@
 include('./include/header.php');
 ?>
 
-
-
-
 <!-- Preloader area start -->
 
 <div class="loader_bg">
     <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
 </div>
 
-    <!-- Preloader area end -->
 
-		<!-- Scroll-top -->
-        <button class="scroll-top scroll-to-target open" data-target="html">
-        <i class="bi bi-arrow-up-circle"></i>
-        </button>
-        <!-- Scroll-top-end-->
+ 
 
         
         <!-- header-area -->
@@ -26,11 +18,7 @@ include('./include/header.php');
                 <div class="containe custom-container">
                     <div class="row align-items-center">
                         <div class="col-lg-4 col-sm-6 d-none d-sm-block">
-                            <div class="header-top-left">
-                                <ul>
-                                    <li><a href="#">LIFE-MAC AFRICA<span>.</span></a></li>
-                                </ul>
-                            </div>
+                    
                         </div>
                         <div class="col-lg-4 d-none d-lg-block">
                             <div class="logo text-center">

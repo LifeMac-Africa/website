@@ -76,20 +76,20 @@ include ('./config.php');      //Map API Configurations link here
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-xl-6 col-lg-8 d-flex align-items-center">
-                    <div class="video-container position-relative">
+                    <div class="video-container">
                         <!-- Add SVG animation here -->
                         <div class="svg-animation"></div>
-                        <video id="myVideo" width="560" height="315" autoplay muted loop>
+                        <video id="myVideo" width="360" height="315" autoplay muted loop>
                             <source src="./Midea/Doing the most good with your charitable donations.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                         <img id="gifOverlay" src="./Midea/Animation%20-%201711545213723(1).gif" class="gif-overlay" alt="GIF Overlay">
                         <div id="playButton" class="play-button"></div>
                     </div>
-                    <div class="col-xl-6 col-lg-10 cta-content ms-4">
-                        <div class="section-title mb-18">
+                    <div class="col-xl-6 col-lg-8 cta-content ms-2">
+                        <div class="section-title mb-4">
                             <span class="sub-title">Life-mac Africa</span>
-                            <h4 class="title">We Help at Every Step from Concept.</h4>
+                            <h4 class="t" style="color: white; font-size:40px; font-weight:700;">We Help at Every Step from Concept.</h4>
                         </div>
                        
                     </div>
@@ -208,7 +208,7 @@ include ('./config.php');      //Map API Configurations link here
                             <div class="project-item mb-30">
                                 <div class="project-thumb">
                                     <a href="#"><img src="./images/katt-yukawa-K0E6E0a0R3A-unsplash.jpg" alt=""></a>
-                                    <a href="#" class="tag">Charity Donation campaign</a>
+                                    <a href="./donation.php" class="tag">Charity Donation campaign</a>
                                 </div>
                                 <div class="project-content">
                                     <h2 class="title"><a href="#">Charity is a simple method to prove kindness of nation</a></h2>
@@ -273,7 +273,7 @@ include ('./config.php');      //Map API Configurations link here
                             <div class="project-item mb-30">
                                 <div class="project-thumb">
                                     <a href="#"><img src="images/project_img06.jpg" alt=""></a>
-                                    <a href="#" class="tag">School Mentor campaign</a>
+                                    <a href="./JoinUs.php" class="tag">School Mentor campaign</a>
                                 </div>
                                 <div class="project-content">
                                     <h2 class="title"><a href="#">Charity is a simple method to prove kindness of nation</a></h2>
@@ -384,8 +384,16 @@ include ('./config.php');      //Map API Configurations link here
                                 </div>
                                 <p>At LIFE-MAC Africa, we foster an inclusive culture by embracing diversity and supporting employees from diverse backgrounds. Through our comprehensive initiatives aligned with the UN Global Goals, we provide opportunities for all to contribute and thrive, regardless of background. Together, we work towards driving positive societal change and creating a brighter, more inclusive future for all.</p>
                                 <ul class="cta-list">
-                                <li>Raise funds with a Life-Mac Africa campaign</li>
-                                  <li>Extend your campaign with Life-Mac Africa</li>
+                                <ul>
+                                    <li>
+                                        <i class="bi bi-megaphone-fill"  style="color:greenyellow"></i> 
+                                        <span style="margin-left: 8px;">Raise funds with a Life-Mac Africa campaign</span>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-megaphone-fill" style="color:greenyellow"></i> 
+                                        <span style="margin-left: 8px;">Extend your campaign with Life-Mac Africa</span>
+                                    </li>
+                                </ul>
                                 </ul>
                             </div>
                         </div>

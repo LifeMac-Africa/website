@@ -1328,10 +1328,11 @@ ul.minicart .cart-price .new {
 	margin-bottom: 4px;
 }
 .section-title .title {
-    font-size: 60px;
+    font-size: 50px;
     letter-spacing: -3px;
     margin-bottom: 0;
     line-height: 1.2;
+	
 }
 .section-title .overlay-title {
     position: absolute;
@@ -3038,7 +3039,6 @@ ul.minicart .cart-price .new {
 	margin-bottom: 0;
 }
 .cta-list li::before {
-	content: "\f00c";
 	position: absolute;
 	left: 0;
 	top: 50%;
@@ -3047,7 +3047,6 @@ ul.minicart .cart-price .new {
 	height: 40px;
 	background: #009e74;
 	font-weight: 400;
-	font-family: "Font Awesome 5 Pro";
 	display: flex;
 	align-items: center;
 	justify-content: center;
