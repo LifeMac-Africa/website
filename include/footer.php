@@ -12,7 +12,7 @@ include('./include/header.php');
                     <div class="col-lg-4 col-md-5">
                         <div class="footer-widget wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                             <div class="fw-logo mb-20">
-                            <img src="./images/1500x500.jpeg" alt="" style="width:40%; border-radius:5%; margin-left:10px;">
+                            <img src="./images/1500x500.jpeg" alt="" style="width:40%; border-radius:5%; margin-left:10px; ">
                             </div>
                             
                             <div class="footer-contact-list mb-10">

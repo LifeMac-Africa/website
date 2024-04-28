@@ -36,7 +36,7 @@ include('./include/navbar.php');
                 <div class="right-caption">
                     
                     <!-- Section Title -->
-                    <div class="section-tittle">
+                    <div class="section-tittlet">
                         <h2>Who we are?</h2>
                     </div>
                     
