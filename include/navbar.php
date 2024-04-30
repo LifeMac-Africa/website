@@ -58,7 +58,7 @@ include('./include/header.php');
 
 
                                         <!-- Areas of Focus -->
-                                        <li><a href="#">Areas of Focus </a>
+                                        <li><a href="./Education.php">Areas of Focus </a>
                                         <ul class="submenu">
 
                                                 <li><a href="#">Education Aid</a>
@@ -164,3 +164,4 @@ include('./include/header.php');
         <!-- header-area-end -->
         
         <script src="./js/video.js"></script>
+        

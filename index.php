@@ -37,7 +37,7 @@ include ('./config.php');      //Map API Configurations link here
         <div class="col-md-4">
             <div class="category-item">
                 <img src="./images/dart-mission-goal-success-svgrepo-com.svg" class="card-img-top" alt="Mission Image">
-                <div class="card-body">
+                <div class="cardb">
                     <h5 class="card1">Mission</h5>
                     <p class="card1">Empowering communities through diverse initiatives for sustainable development.</p>
                 </div>
@@ -46,7 +46,7 @@ include ('./config.php');      //Map API Configurations link here
         <div class="col-md-4">
             <div class="category-item">
                 <img src="./images/vision-svgrepo-com(1).svg" class="card-img-top" alt="Vision Image">
-                <div class="card-body">
+                <div class="cardb">
                     <h5 class="card1">Vision</h5>
                     <p class="card1">Fostering futures where our collective efforts drive global well-being and prosperity.</p>
                 </div>
@@ -55,7 +55,7 @@ include ('./config.php');      //Map API Configurations link here
         <div class="col-md-4">
             <div class="category-item">
                 <img src="./images/value-proposition-offer-value-submit-a-proposal-offer-a-benefit-svgrepo-com.svg" class="card-img-top" alt="Core Value Image">
-                <div class="card-body">
+                <div class="cardb">
                     <h5 class="card1">Core Value</h5>
                     <p class="card1">Our identity, LIFE-MAC, is an acronym coined from the initial letters of our core values.</p>
                 </div>
@@ -72,31 +72,55 @@ include ('./config.php');      //Map API Configurations link here
 
 
         <!-- Image with Text under navbar -->
-        <section class="cta-area cta-bg">
-        <div class="container">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-xl-6 col-lg-8 d-flex align-items-center">
-                    <div class="video-container">
-                        <!-- Add SVG animation here -->
-                        <div class="svg-animation"></div>
-                        <video id="myVideo" width="360" height="315" autoplay muted loop>
-                            <source src="./Midea/Doing the most good with your charitable donations.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                        <img id="gifOverlay" src="./Midea/Animation%20-%201711545213723(1).gif" class="gif-overlay" alt="GIF Overlay">
-                        <div id="playButton" class="play-button"></div>
-                    </div>
-                    <div class="col-xl-6 col-lg-8 cta-content ms-2">
-                        <div class="section-title mb-4">
-                            <span class="sub-title">Life-mac Africa</span>
-                            <h4 class="t" style="color: white; font-size:40px; font-weight:700;">We Help at Every Step from Concept.</h4>
-                        </div>
-                       
-                    </div>
+               <!-- Video Start -->
+<div class="container-xxl py-5 px-0 wow zoomIn" data-wow-delay="0.1s">
+    <div class="row g-0">
+        <div class="col-md-6 bg-dark d-flex align-items-center">
+            <div class="p-5">
+                <h6 class="section-title text-start text-white text-uppercase mb-3">LIFE-MAC AFRICA</h6>
+                <h1 class="text-white mb-4">LIFE-MAC AFRICA</h1>
+                <p class="text-white mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Impact stories</a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="video">
+                <button type="button" class="btn-play" data-bs-toggle="modal" data-bs-target="#videoModal" onclick="playYouTubeVideo('mPRXhNFPgwo')">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content rounded-0">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Life-Mac Africa</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- 16:9 aspect ratio -->
+                <div class="ratio ratio-16x9">
+                    <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always" allow="autoplay"></iframe>
                 </div>
             </div>
         </div>
-        </section>
+    </div>
+</div>
+<!-- Video Start -->
+
+<script>
+    function playYouTubeVideo(videoId) {
+        var iframe = document.getElementById('video');
+        iframe.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1';
+    }
+</script>
+
+
+
+
 
 
             

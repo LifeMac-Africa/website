@@ -189,25 +189,19 @@ include('./include/navbar.php');
                     <a href="./JoinUs.php" class="btn about-btn">Join Now</a>
                 </div>
             </div>
-            <div class="offset-xl-1 col-xl-4 col-lg-4 col-md-7 col-sm-7">
-                <div class="joning-img">
-                    <img src="./images/joining1.jpg.webp" alt="" class="w-100">
+            <div class="offset-xl-1 col-xl-4 col-lg-4 col-md-7 col-sm-7 d-flex">
+                <div class="joning-img flex-fill">
+                    <img src="./images/joining1.jpg.webp" alt="" >
                 </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-5 col-sm-5">
-                <div class="joning-img">
-                    <img src="./images/char.jpg" alt="" class="w-100">
+                <div class="joning-img flex-fill">
+                    <img src="./images/joining1.jpg.webp" alt="" >
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-       
-
-
-
-
+ 
 
 
      
