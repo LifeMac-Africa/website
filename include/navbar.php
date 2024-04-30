@@ -77,7 +77,7 @@ include('./include/header.php');
                                                     </li>
 
 
-                                                    <li><a href="#">Agriculture</a>
+                                                    <li><a href="./Agriculture.php">Agriculture</a>
                                                     <ul class="submenu">
                                                     <li><a href="#">Family Farms</a></li>
                                                     <li><a href="#">Farm Parks</a></li>

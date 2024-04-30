@@ -984,14 +984,30 @@ margin-top: 20px;
 /* End About us Card */
 
 
-/* Education Css  start*/
+
+
+
+/* Agriculture Css  start*/
+
 .slider-height3 {
-  height: 400px;
+  height: 800px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url('../images/agricobg.jpg'); 
 }
+
+
+
+.hero-caption2 h1 {
+  color: #fff;
+  font-size: 100px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* Agriculture Css  End */
 
 
 
