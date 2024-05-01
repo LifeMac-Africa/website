@@ -37,42 +37,6 @@ include('./include/header.php');
 
 
 
-    <!-- Menu baar -->
-    <div id="sticky-header" class="main-header menu-area sticky-menu">
-        <div class="container custom-container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="mobile-nav-toggler"><i class="bi bi-list"></i></div>
-                    <div class="menu-wrap">
-                        <nav class="menu-nav show">
-                            <div class="logo d-none">
-                                <h1 style="color:white;">LIFE-MAC AFRICA<span>.</span></h1>
-                            </div>
-
-                            <!-- Home start here -->
-                            <div class="navbar-wrap main-menu d-none d-lg-flex">
-                                <ul class="navigation">
-                                    <li class="active dropdown"><a href="./index.php">Home</a>
-
-                                        <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>
-                                    </li>
-                                    <!-- Home Ends here -->
-
-                                    <!-- About start here -->
-                                    <li><a href="./about.php">About</a></li>
-                                    <!-- About Ends Here -->
-
-
-                                    <!-- Areas of Focus -->
-                                    <li><a href="./Education.php">Areas of Focus </a>
-                                        <ul class="submenu">
-
-                                            <li><a href="#">Education Aid</a>
-                                                <ul class="submenu">
-                                                    <li><a href="#">Paradigm Shift </a></li>
-
-
-
 
                                                     <!-- Menu baar -->
                                                     <div id="sticky-header" class="main-header menu-area sticky-menu">
@@ -124,7 +88,7 @@ include('./include/header.php');
                                                                                                 <ul class="submenu">
                                                                                                     <li><a href="#">Family Farms</a></li>
                                                                                                     <li><a href="#">Farm Parks</a></li>
-                                                                                                    <li><a href="#">Wisdom’s Idea </a></li>
+                                                                                                    <li><a href="#">Wisdoms Idea </a></li>
 
                                                                                                 </ul>
                                                                                             </li>
@@ -203,6 +167,14 @@ include('./include/header.php');
                                                                                     <li><a href="./publication.php">Publications</a></li>
 
                                                                                     <li><a href="./donation.php">Donate</a></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </nav>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
 </header>
 <!-- header-area-end -->
