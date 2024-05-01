@@ -989,35 +989,6 @@ textarea.form-control {
   opacity: 0.7;
 }
 
-
-/* Agriculture Css  End */
-
-
-
-/* Eduactiom Css  start*/
-
-.slider-height4 {
-  height: 600px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url('../images/educationbg1.jpg'); 
-}
-
-
-
-.hero-caption2 h1 {
-  color: #fff;
-  font-size: 100px;
-  font-weight: 900;
- margin-left: 20%;
-  margin-bottom: 0;
-}
-
-
-
-/* Agriculture Css  End */
-
 /* Content CSS */
 .container {
   position: relative;
