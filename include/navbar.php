@@ -58,10 +58,10 @@ include('./include/header.php');
 
 
                                         <!-- Areas of Focus -->
-                                        <li><a href="./Education.php">Areas of Focus </a>
+                                        <li><a href="#">Areas of Focus </a>
                                         <ul class="submenu">
 
-                                                <li><a href="#">Education Aid</a>
+                                                <li><a href="./Education Aid.php">Education Aid</a>
                                                    <ul class="submenu">
                                                    <li><a href="#">Paradigm Shift </a></li>
                                                     <li><a href="#">Ace Kaizen</a></li>
