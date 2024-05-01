@@ -55,7 +55,7 @@ include("./include/navbar.php");
                         <div class="category-item">
                             <img src="./images/value-proposition-offer-value-submit-a-proposal-offer-a-benefit-svgrepo-com.svg" class="card-img-top" alt="Core Value Image">
                             <div class="cardb">
-                                <h5 class="card1">Wisdom Ideas</h5>
+                                <h5 class="card1">wi</h5>
                                 <p class="card1">Inspiring minds, shaping futures: Wisdom Idea, where innovation meets wisdom.</p>
                             </div>
                         </div>
