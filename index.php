@@ -79,7 +79,7 @@ include ('./config.php');      //Map API Configurations link here
             <div class="p-5">
                 <h6 class="section-title text-start text-white text-uppercase mb-3">LIFE-MAC AFRICA</h6>
                 <h1 class="text-white mb-4">LIFE-MAC AFRICA</h1>
-                <p class="text-white mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                <p class="text-white mb-4">Together We Rise: Uniting Hearts, Changing Lives. Join us in celebrating the power of compassion and solidarity. Through your kindness, we're creating a world where no one is left behind. Share the joy of giving and be part of something truly extraordinary</p>
                 <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Impact stories</a>
             </div>
         </div>

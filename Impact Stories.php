@@ -124,22 +124,22 @@ include('./include/navbar.php');
         <!-- Video Card 1 -->
         <div class="video-card">
             <iframe src="https://www.youtube-nocookie.com/embed/mPRXhNFPgwo" frameborder="0" allowfullscreen></iframe>
-            <p class="video-text">Impact Story 1</p>
-            <p class="video-description">This is the description for Impact Story 1.</p>
+            <p class="video-text"></p>
+            <p class="video-description">Transforming Lives: Witness the Impact of Your Generosity. Every donation makes a difference, empowering individuals and communities to thrive against all odds. Join us in spreading hope and changing lives today</p>
         </div>
 
         <!-- Video Card 2 -->
         <div class="video-card">
             <iframe src="https://www.youtube-nocookie.com/embed/0cW0EknMvd8" frameborder="0" allowfullscreen></iframe>
-            <p class="video-text">Impact Story 2</p>
-            <p class="video-description">This is the description for Impact Story 2.</p>
+            <p class="video-text"></p>
+            <p class="video-description">From Despair to Hope: Discover the Stories Behind the Smiles. Experience the incredible journeys of those whose lives have been touched by your support. Together, we're building brighter futures for all. Join the movement for change</p>
         </div>
 
         <!-- Video Card 3 -->
         <div class="video-card">
             <iframe src="https://www.youtube-nocookie.com/embed/CQ1ELMHwd6w" frameborder="0" allowfullscreen></iframe>
-            <p class="video-text">Impact Story 3</p>
-            <p class="video-description">This is the description for Impact Story 3.</p>
+            <p class="video-text"></p>
+            <p class="video-description">Together We Rise: Uniting Hearts, Changing Lives. Join us in celebrating the power of compassion and solidarity. Through your kindness, we're creating a world where no one is left behind. Share the joy of giving and be part of something truly extraordinary.</p>
         </div>
 
     </div>
