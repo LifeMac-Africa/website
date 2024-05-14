@@ -87,7 +87,7 @@ include('./include/header.php');
                                         </div>
                                         <div class="content">
                                             <span><i class="bi bi-calendar-month"></i>23rd January 2022</span>
-                                            <h2 class="title"><a href="#">Honest and Clear Presentation in Projects</a></h2>
+                                            <h2 class="title"><a href="#">A small charity has a big impact In the full society</a></h2>
                                         </div>
                                     </li>
                                     <li class="mb-10">
@@ -96,7 +96,7 @@ include('./include/header.php');
                                         </div>
                                         <div class="content">
                                             <span><i class="bi bi-calendar-month"></i>23rd June 2023</span>
-                                            <h2 class="title"><a href="#">Simply popular belief tradition contrary lorem</a></h2>
+                                            <h2 class="title"><a href="#">School Mentor campaign</a></h2>
                                         </div>
                                     </li>
                                     <li class="mb-10">
@@ -105,7 +105,7 @@ include('./include/header.php');
                                         </div>
                                         <div class="content">
                                             <span><i class="bi bi-calendar-month"></i>23rd June 2024</span>
-                                            <h2 class="title"><a href="#">Popular contrary to traditional lorem ipsum</a></h2>
+                                            <h2 class="title"><a href="#">Charity is a simple method to prove kindness of nation</a></h2>
                                         </div>
                                     </li>
                                 </ul>
