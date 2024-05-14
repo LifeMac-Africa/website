@@ -186,7 +186,7 @@ include('./include/navbar.php');
                         <h2>Join with Us</h2>
                     </div>
                     <p>Are you passionate about making a difference in the world? We're always looking for dedicated individuals who share our vision and values to join our team. Whether you're interested in volunteering your time, contributing your skills, or collaborating on projects, there's a place for you at Life-mac Africa!</p>
-                    <a href="./JoinUs.php" class="btn about-btn">Join Now</a>
+                    <a href="./JoinUs.php" class="btn about-btn" style="margin-bottom: 20px;">Join Now</a>
                 </div>
             </div>
             <div class="offset-xl-1 col-xl-4 col-lg-4 col-md-7 col-sm-7 d-flex">
@@ -194,7 +194,7 @@ include('./include/navbar.php');
                     <img src="./images/joining1.jpg.webp" alt="" >
                 </div>
                 <div class="joning-img flex-fill">
-                    <img src="./images/joining1.jpg.webp" alt="" >
+                    <img src="./images/joining1.jpg.webp" style="margin-bottom: 20px;" alt="" >
                 </div>
             </div>
         </div>

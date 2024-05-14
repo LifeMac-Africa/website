@@ -4,7 +4,6 @@ include("./include/navbar.php");
 ?>
 
 
-
         <!-- Image with Text under navbar -->
         <div class="slider-area">
     <div class="slider-height4 slider-bg4 hero-overly d-flex align-items-center">
@@ -12,7 +11,9 @@ include("./include/navbar.php");
             <div class="row align-items-center">
                 <div class="col-xl-5 col-lg-6 col-md-6">
                     <div class="hero-caption hero-caption2">
-                    <h1><img src="" alt="Education.." style="width:100%;"></h1>
+                    <h1 class="educa">
+                    Education
+                    </h1>
                     </div>
                 </div>
             </div>
@@ -21,27 +22,6 @@ include("./include/navbar.php");
 </div>
 
 
-<?php
-include("./include/header.php");
-include("./include/navbar.php");
-?>
-
-
-
-        <!-- Image with Text under navbar -->
-        <div class="slider-area">
-    <div class="slider-height4 slider-bg4 hero-overly d-flex align-items-center">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-5 col-lg-6 col-md-6">
-                    <div class="hero-caption hero-caption2">
-                    <h1><img src="" alt="Education.." style="width:100%;"></h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 <div class="support-company-area section-padding">
@@ -61,16 +41,16 @@ include("./include/navbar.php");
                     
                     <!-- Section Title -->
                     <div class="section-tittlet">
-                        <h2>Welcome to EduLearn</h2>
+                        <h2 class="wel">Welcome to Life-MacLearn</h2>
                     </div>
                     
                     <!-- Support Caption -->
                     <div class="support-caption">
                         <p class="pera-top">
-                            EduLearn is dedicated to providing accessible and quality education to learners of all ages. Our mission is to inspire a love for learning and empower individuals to reach their full potential through education. Join us in our commitment to lifelong learning and personal growth.
+                        Life-MacLearn is dedicated to providing accessible and quality education to learners of all ages. Our mission is to inspire a love for learning and empower individuals to reach their full potential through education. Join us in our commitment to lifelong learning and personal growth.
                         </p>
                         <!-- Learn More Button -->
-                        <a href="#" class="btn about-btn">Explore Courses</a>
+                        <a href="#" class="btn about-btn ">Explore Courses</a>
                     </div>
                     
                 </div>
@@ -145,7 +125,7 @@ include("./include/navbar.php");
             <div class="col-xl-7 col-lg-8 col-md-11">
                 <div class="section-tittle text-center mb-70">
                     <h2>Discover Our Offerings</h2>
-                    <p>At EduLearn, we offer a diverse range of educational programs and services designed to meet the needs of learners at every stage of their academic journey. From foundational courses to specialized training, we provide opportunities for growth and development in various fields.</p>
+                    <p>At Life-MacLearn, we offer a diverse range of educational programs and services designed to meet the needs of learners at every stage of their academic journey. From foundational courses to specialized training, we provide opportunities for growth and development in various fields.</p>
                 </div>
             </div>
         </div>
@@ -195,7 +175,7 @@ include("./include/navbar.php");
     </div>
     <div class="text-container">
         <h2>Start Your Learning Journey</h2>
-        <p>Embark on a journey of discovery and growth with EduLearn. Whether you're a student seeking academic support, a professional looking to expand your skillset, or an enthusiast eager to explore new interests, we have something for everyone. Join us and unlock your potential today!</p>
+        <p>Embark on a journey of discovery and growth with  Life-MacLearn. Whether you're a student seeking academic support, a professional looking to expand your skillset, or an enthusiast eager to explore new interests, we have something for everyone. Join us and unlock your potential today!</p>
         <a href="./courses.php" class="btn about-btn">Browse Courses</a>
     </div>
 </div>
@@ -209,7 +189,7 @@ include("./include/navbar.php");
                     <div class="section-tittle">
                         <h2>Join Our Community</h2>
                     </div>
-                    <p>Be part of a vibrant community of learners and educators at EduLearn. Connect with like-minded individuals, share knowledge and experiences, and collaborate on projects that inspire and challenge you. Together, we can make learning a truly enriching experience!</p>
+                    <p>Be part of a vibrant community of learners and educators at  Life-MacLearn. Connect with like-minded individuals, share knowledge and experiences, and collaborate on projects that inspire and challenge you. Together, we can make learning a truly enriching experience!</p>
                     <a href="./register.php" class="btn about-btn">Join Now</a>
                 </div>
             </div>

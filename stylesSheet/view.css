@@ -251,6 +251,9 @@ form {
 }
 /* End Contact us form Css */
 
+
+
+
 /* Loader style */
 .loader_bg {
   position: fixed;
@@ -317,6 +320,10 @@ form {
 
 /* End Loader style */
 
+
+
+
+
 /* Footer icons  */
 .icon img {
   width: 20px;
@@ -324,6 +331,11 @@ form {
 }
 
 /* End footer icons */
+
+
+
+
+
 
 /* impact stories css */
 .section {
@@ -429,6 +441,11 @@ form {
   }
 }
 /* End imapct stories css */
+
+
+
+
+
 
 /* Donation style  */
 .containern {
@@ -695,6 +712,15 @@ textarea.form-control {
 }
 /* End Donation form css */
 
+
+
+
+
+
+
+
+
+
 /* Dropdown css */
 .navbar-wrap .navigation > li {
   position: relative;
@@ -736,6 +762,16 @@ textarea.form-control {
 }
 
 /* End Dropdown style */
+
+
+
+
+
+
+
+
+
+
 
 /* About us Card Lifemac leaders style  */
 
@@ -920,6 +956,17 @@ textarea.form-control {
 }
 /* End About us Card */
 
+
+
+
+
+
+
+
+
+
+
+
 /* Education Css  start*/
 .slider-height3 {
   height: 800px;
@@ -928,6 +975,7 @@ textarea.form-control {
   background-repeat: no-repeat;
   background-image: url("../images/agricobg.jpg");
 }
+
 
 
 
@@ -994,6 +1042,9 @@ textarea.form-control {
 
 
 
+
+
+
 /* Eduactiom Css  start*/
 
 .slider-height4 {
@@ -1004,6 +1055,24 @@ textarea.form-control {
   background-image: url('../images/educationbg1.jpg'); 
 }
 
+@media only screen and (max-width: 767px) {
+  .educa{
+    position: absolute; 
+    bottom: 20px; 
+    left: 30%; 
+    transform: translateX(-50%); 
+    font-size: 24px; 
+    color: white; 
+    text-align: center; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+
+  .wel{
+    left: 80%; 
+    text-align: center; 
+  }
+
+}
 
 
 .hero-caption2 h1 {
